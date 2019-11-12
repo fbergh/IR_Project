@@ -25,7 +25,7 @@ Reference: Fox, E. A. (1983). Characterization of two new experimental collectio
 
 ## Cranfield
 
-1398 abstracts of aerodynamics journal articles and 225 queries with **exhaustive** relvance judgements.
+1398 abstracts of aerodynamics journal articles and 225 queries with **exhaustive** relevance judgements.
 
 ## Time
 
