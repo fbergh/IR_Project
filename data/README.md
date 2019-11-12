@@ -21,7 +21,7 @@ Reference: Fox, E. A. (1983). Characterization of two new experimental collectio
 
 ## CISI
 
-1460 documents and 35 queries with relevance judgements
+1460 documents and 35 queries with relevance judgements.
 
 ## Cranfield
 
