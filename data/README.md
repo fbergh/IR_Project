@@ -17,7 +17,7 @@ Vaswani, P. K. T., & Cameron, J. B. (1970). The National Physical Laboratory Exp
 
 3204 abstracts (with title, authors, keywords, categories, publication dates) and 52 queries with relevance judgements.
 
-Reference: Fox, E. A. (1983). Characterization of two new experimental collections in computer and information science containing textual and bibliographic concepts. Cornell University.
+Reference: Fox, E. A. (1983). Characterization of two new experimental collections in computer and information science containing textual and bibliographic concepts. Cornell University. <https://ecommons.cornell.edu/bitstream/handle/1813/6401/83-561.pdf?sequence=1&isAllowed=y>.
 
 ## CISI
 
