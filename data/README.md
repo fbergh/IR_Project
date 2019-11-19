@@ -27,6 +27,8 @@ Reference: Fox, E. A. (1983). Characterization of two new experimental collectio
 
 1398 abstracts of aerodynamics journal articles and 225 queries with **exhaustive** relevance judgements.
 
+GitHub page for Cranfield in TREC format: <https://github.com/ronancummins/spud/tree/master/cranfield-collection>.
+
 ## Time
 
 425 articles from TIME magazine and 83 queries with relevance judgements.
