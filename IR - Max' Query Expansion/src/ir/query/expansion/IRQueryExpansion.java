@@ -24,6 +24,7 @@ public class IRQueryExpansion {
      */
     public static void main(String[] args) throws IOException, ParseException {
         ArrayList<String> wikipediaResults = getWikipediaResults(QUERY, WIKI_LIMIT);
+        System.out.println(wikipediaResults);
         ArrayList<String> dbpediaResults = getDBpediaConnections(wikipediaResults.get(0), DBPEDIA_LIMIT);
         
         ArrayList<String> candidates = getIntersection(wikipediaResults, dbpediaResults);
