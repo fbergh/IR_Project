@@ -15,12 +15,9 @@ public class WikipediaQuery {
 
     public static ArrayList<String> getWikipediaResults(String query, int limit) throws IOException {
         String urlEncodedQuery = URLEncoder.encode(query, "UTF-8");
-        String jsonResult;
-        if(isMac())
-            jsonResult = execCmd("curl https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch="+urlEncodedQuery+"&srlimit="+limit+"&format=json");
-        else
-            jsonResult = execCmd("curl \"https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch="+urlEncodedQuery+"&srlimit="+limit+"&format=json\"");
-        
+        String url = "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch="+urlEncodedQuery+"&srlimit="+limit+"&format=json";
+        String jsonResult = isMac() ? execCmd("curl "+url) : execCmd("curl \""+url+"\"");
+       
         ArrayList<String> titles = parseJSONTitles(jsonResult);
         
         return titles;

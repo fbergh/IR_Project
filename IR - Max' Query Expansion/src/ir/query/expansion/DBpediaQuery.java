@@ -13,32 +13,24 @@ public class DBpediaQuery {
    
     public static ArrayList<String> getDBpediaConnections(String docTitle, int limit) throws IOException{
         String underscoredDocTitle = docTitle.replaceAll(" ", "_");
-        String urlEncodedDocTitle = URLEncoder.encode(underscoredDocTitle, "UTF-8");
         
+        String objCommand =  "PREFIX : <http://dbpedia.org/resource/> "+
+                             "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> "+
+                             "select ?description where { :"+underscoredDocTitle+" ?p ?o . ?o rdfs:label ?description . FILTER (LANG(?description) = 'en') .} "+
+                             "LIMIT "+limit;
+        String subjCommand = "PREFIX : <http://dbpedia.org/resource/> "+
+                             "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> "+
+                             "select ?description where { ?s ?p :"+underscoredDocTitle+" . ?s rdfs:label ?description . FILTER (LANG(?description) = 'en') .} "+
+                             "LIMIT "+limit;
+        
+        String objUrl = "http://dbpedia.org/sparql?query="+URLEncoder.encode(objCommand, "UTF-8");
+        String subjUrl = "http://dbpedia.org/sparql?query="+URLEncoder.encode(subjCommand, "UTF-8");
+        
+        String objects = isMac() ? execCmd("curl "+objUrl) : execCmd("curl \""+objUrl+"\"");
+        String subjects = isMac() ? execCmd("curl "+subjUrl) : execCmd("curl \""+subjUrl+"\"");
 
-       String outgoing, incoming;
-        if(isMac()){
-            outgoing = execCmd("curl http://dbpedia.org/sparql?query=PREFIX%20%3A%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2F%3E%20"
-                                       + "PREFIX%20rdfs%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%20"
-                                       + "select%20%3Fdescription%20where%20%7B%20%3A"+urlEncodedDocTitle+"%20%3Fp%20%3Fo%20.%20%3Fo%20rdfs%3Alabel%20%3Fdescription%20."
-                                       + "%20FILTER%20%28LANG%28%3Fdescription%29%20%3D%20%27en%27%29%20.%7D%20LIMIT%20"+limit);
-            incoming = execCmd("curl http://dbpedia.org/sparql?query=PREFIX%20%3A%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2F%3E%20"
-                                       + "PREFIX%20rdfs%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%20"
-                                       + "select%20%3Fdescription%20where%20%7B%20%3Fs%20%3Fp%20%3A"+urlEncodedDocTitle+"%20.%20%3Fs%20rdfs%3Alabel%20%3Fdescription%20."
-                                       + "%20FILTER%20%28LANG%28%3Fdescription%29%20%3D%20%27en%27%29%20.%7D%20LIMIT%20"+limit);
-        }
-        else {
-            outgoing = execCmd("curl \"http://dbpedia.org/sparql?query=PREFIX%20%3A%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2F%3E%20"
-                                       + "PREFIX%20rdfs%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%20"
-                                       + "select%20%3Fdescription%20where%20%7B%20%3A"+urlEncodedDocTitle+"%20%3Fp%20%3Fo%20.%20%3Fo%20rdfs%3Alabel%20%3Fdescription%20."
-                                       + "%20FILTER%20%28LANG%28%3Fdescription%29%20%3D%20%27en%27%29%20.%7D%20LIMIT%20"+limit+"\"");
-            incoming = execCmd("curl \"http://dbpedia.org/sparql?query=PREFIX%20%3A%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2F%3E%20"
-                                       + "PREFIX%20rdfs%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%20"
-                                       + "select%20%3Fdescription%20where%20%7B%20%3Fs%20%3Fp%20%3A"+urlEncodedDocTitle+"%20.%20%3Fs%20rdfs%3Alabel%20%3Fdescription%20."
-                                       + "%20FILTER%20%28LANG%28%3Fdescription%29%20%3D%20%27en%27%29%20.%7D%20LIMIT%20"+limit+"\"");
-        }
-        ArrayList<String> labels = parseHTMLTitles(outgoing);
-        labels.addAll(parseHTMLTitles(incoming));
+        ArrayList<String> labels = parseHTMLTitles(objects);
+        labels.addAll(parseHTMLTitles(subjects));
         return labels;
     }
     
