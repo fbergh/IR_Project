@@ -16,6 +16,7 @@ public class QueryWriter
 {
     private BufferedWriter bw;
     private BufferedReader br;
+    private static final String Q = "Slavery";
     
     /**
      * Constructor for the writer
@@ -42,7 +43,7 @@ public class QueryWriter
      * Write expanded TREC queries to a new file in the same format
      * TODO: add query expansion
      */
-    public void writeExpandedQueries() {
+    public void writeExpandedQueries(String wikiDumpPath, String queriesPath) {
         System.out.println("Begin writing expanded queries.\n");
         try
         {
@@ -50,8 +51,10 @@ public class QueryWriter
             
             while( readLine != null ) {
                 if( readLine.startsWith("<title>") && readLine.length() > 7) {
-                    System.out.println("Original query: "+readLine.substring(8));
+                    String query = readLine.substring(8);
+                    System.out.println("Original query: "+query);
                     String expansionTerms = "Jan Peter"; // Add expansion function here
+//                    System.out.println("Levenshtein distance: "+(QueryExpansion.computeLevenshteinDistance(query, Q)/(float)Q.length()));
                     readLine += expansionTerms;
                     System.out.println("Expanded query: "+readLine.substring(8) + "\n");
                 }

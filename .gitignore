@@ -2,6 +2,7 @@ anserini/
 robust04/
 .vscode/
 test/
+termdoc/
 
 # NETBEANS
 **/nbproject/private/

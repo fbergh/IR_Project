@@ -11,7 +11,7 @@ import org.apache.lucene.queryparser.classic.ParseException;
  */
 public class IRQueryExpansion {
     
-    static final String QUERY = "Hiroshima Nagasaki";
+    static final String QUERY = "Barack: Obama";
     static final int WIKI_LIMIT = 30;
     static final int DBPEDIA_LIMIT = 20000;
 
@@ -26,9 +26,10 @@ public class IRQueryExpansion {
         
         ArrayList<String> candidates = getIntersection(wikipediaResults, dbpediaResults);
 
-        System.out.println(candidates);
+        ESARanking ranker = new ESARanking("termdoc");
+        System.out.println(ranker.rank(QUERY,candidates));
         
-        ESARanking.test();
+//        ESARanking.test();
     }
     
     private static ArrayList<String> getIntersection(ArrayList<String> a, ArrayList<String> b){
