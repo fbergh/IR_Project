@@ -14,4 +14,8 @@ public class Tools {
         return val;
     }
     
+    public static boolean isMac() {
+        return System.getProperty("os.name").startsWith("Mac");
+    }
+    
 }

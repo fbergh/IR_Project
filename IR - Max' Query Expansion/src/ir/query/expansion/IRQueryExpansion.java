@@ -26,10 +26,10 @@ public class IRQueryExpansion {
         ArrayList<String> wikipediaResults = getWikipediaResults(QUERY, WIKI_LIMIT);
         System.out.println(wikipediaResults);
         ArrayList<String> dbpediaResults = getDBpediaConnections(wikipediaResults.get(0), DBPEDIA_LIMIT);
+        System.out.println(dbpediaResults);
         
         ArrayList<String> candidates = getIntersection(wikipediaResults, dbpediaResults);
-
-        System.out.println(candidates);    
+        System.out.println(candidates);
     }
     
     private static ArrayList<String> getIntersection(ArrayList<String> a, ArrayList<String> b){

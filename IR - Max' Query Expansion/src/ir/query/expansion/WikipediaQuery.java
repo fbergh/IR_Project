@@ -1,6 +1,7 @@
 package ir.query.expansion;
 
 import static ir.query.expansion.Tools.execCmd;
+import static ir.query.expansion.Tools.isMac;
 import java.io.IOException;
 import java.net.URLEncoder;
 import java.util.ArrayList;
@@ -15,8 +16,11 @@ public class WikipediaQuery {
 
     public static ArrayList<String> getWikipediaResults(String query, int limit) throws IOException {
         String urlEncodedQuery = URLEncoder.encode(query, "UTF-8");
-        String jsonResult = execCmd("curl \"https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch="+urlEncodedQuery+"&srlimit="+limit+"&format=json\"");
-        System.out.println(jsonResult);
+        String jsonResult;
+        if(isMac())
+            jsonResult = execCmd("curl https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch="+urlEncodedQuery+"&srlimit="+limit+"&format=json");
+        else
+            jsonResult = execCmd("curl \"https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch="+urlEncodedQuery+"&srlimit="+limit+"&format=json\"");
         ArrayList<String> titles = parseJSONTitles(jsonResult);
         
         return titles;
