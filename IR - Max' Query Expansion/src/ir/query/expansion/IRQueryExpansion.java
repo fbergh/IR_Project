@@ -5,7 +5,6 @@ import static ir.query.expansion.WikipediaQuery.getWikipediaResults;
 import java.io.IOException;
 import java.util.ArrayList;
 import org.apache.lucene.queryparser.classic.ParseException;
-
 /**
  *
  * @author Max Driessen, s4789628
@@ -20,16 +19,16 @@ public class IRQueryExpansion {
      * 
      * @param args
      * @throws IOException
-     * @throws ParseException 
      */
     public static void main(String[] args) throws IOException, ParseException {
         ArrayList<String> wikipediaResults = getWikipediaResults(QUERY, WIKI_LIMIT);
-        System.out.println(wikipediaResults);
         ArrayList<String> dbpediaResults = getDBpediaConnections(wikipediaResults.get(0), DBPEDIA_LIMIT);
-        System.out.println(dbpediaResults);
         
         ArrayList<String> candidates = getIntersection(wikipediaResults, dbpediaResults);
+
         System.out.println(candidates);
+        
+        ESARanking.test();
     }
     
     private static ArrayList<String> getIntersection(ArrayList<String> a, ArrayList<String> b){

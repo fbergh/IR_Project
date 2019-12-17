@@ -1,7 +1,6 @@
 package ir.query.expansion;
 
-import static ir.query.expansion.Tools.execCmd;
-import static ir.query.expansion.Tools.isMac;
+import static ir.query.expansion.Tools.*;
 import java.io.IOException;
 import java.net.URLEncoder;
 import java.util.ArrayList;
@@ -15,7 +14,9 @@ public class DBpediaQuery {
     public static ArrayList<String> getDBpediaConnections(String docTitle, int limit) throws IOException{
         String underscoredDocTitle = docTitle.replaceAll(" ", "_");
         String urlEncodedDocTitle = URLEncoder.encode(underscoredDocTitle, "UTF-8");
-        String outgoing, incoming;
+        
+
+       String outgoing, incoming;
         if(isMac()){
             outgoing = execCmd("curl http://dbpedia.org/sparql?query=PREFIX%20%3A%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2F%3E%20"
                                        + "PREFIX%20rdfs%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%20"
