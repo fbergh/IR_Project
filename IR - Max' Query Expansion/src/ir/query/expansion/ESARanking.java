@@ -15,13 +15,17 @@ import org.apache.lucene.queryparser.classic.ParseException;
 import static org.apache.lucene.util.Version.LUCENE_48;
 
 /**
- *
- * @author dries
+ * @author Freek van den Bergh, s4801709
  */
 public class ESARanking {
     
     private SemanticSimilarityTool sim;
     
+    /**
+     * Initialises the ESA Ranker
+     * @param termDoc - The path to the term-to-document index
+     * @throws IOException 
+     */
     public ESARanking(String termDoc) throws IOException {
         WikiFactory factory = new EnwikiFactory();
         CharArraySet stopWords = factory.getStopWords();
@@ -31,6 +35,15 @@ public class ESARanking {
         this.sim = new SemanticSimilarityTool(vec);
     }
     
+    /**
+     * Ranks and sorts (in descending order) the list of query expansion candidates
+     * by their ESA score.
+     * @param query
+     * @param candidates
+     * @return - A sorted ArrayList of candidate-ESA_score pairs
+     * @throws ParseException
+     * @throws IOException 
+     */
     public ArrayList<Pair<String, Float>> rank(String query, ArrayList<String> candidates) throws ParseException, IOException {
         ArrayList<Pair<String, Float>> esaScores = new ArrayList();
         for(String c : candidates)
@@ -40,9 +53,11 @@ public class ESARanking {
         return esaScores;
     }
 
+    /**
+     * Comparator for sorting the candidates on ESA scores in descending order
+     */
     private static class ESARankingComparator implements Comparator<Pair<String, Float>>
     {
-
         public ESARankingComparator(){}
 
         @Override
