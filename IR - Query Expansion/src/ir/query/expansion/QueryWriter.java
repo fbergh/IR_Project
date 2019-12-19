@@ -38,7 +38,7 @@ public class QueryWriter
                 String query = readLine.substring(8);
                 expandedQuery = qe.expandQuery(query);
                 System.out.format("Query #%d\n",nrQuery++);
-                bw.write(expandedQuery);
+                bw.write("<title> " + expandedQuery);
             }
             else
                 bw.write(readLine);

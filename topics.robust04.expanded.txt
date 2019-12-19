@@ -1,7 +1,7 @@
 <top>
 
 <num> Number: 301 
-International Organized Crime  convention transnational united against yakuza nations
+<title> International Organized Crime  convention transnational united against yakuza nations
 
 <desc> Description: 
 Identify organizations that participate in international criminal
@@ -20,7 +20,7 @@ the organization(s) involved would not be relevant.
 <top>
 
 <num> Number: 302
-Poliomyelitis and Post-Polio  survivors disambiguation health list international polio
+<title> Poliomyelitis and Post-Polio  survivors disambiguation health list international polio
 
 <desc> Description: 
 Is the disease of Poliomyelitis (polio) under control in the
@@ -40,7 +40,7 @@ the "post-polio" area.
 <top>
 
 <num> Number: 303 
-Hubble Telescope Achievements  uranus project heritage space
+<title> Hubble Telescope Achievements  observatory southern european project heritage space
 
 <desc> Description: 
 Identify positive accomplishments of the Hubble telescope since it
@@ -61,7 +61,7 @@ reference to positive achievements would not be relevant.
 <top>
 
 <num> Number: 304 
-Endangered Species (Mammals)  red critically lists iucn list
+<title> Endangered Species (Mammals)  red critically lists iucn list
 
 <desc> Description: 
 Compile a list of mammals that are considered to be endangered,
@@ -82,7 +82,7 @@ without reference to specific mammals would not be relevant.
 <top>
 
 <num> Number: 305
-Most Dangerous Vehicles  wagon willys jeep station utility criticism sport vehicle
+<title> Most Dangerous Vehicles 
 
 <desc> Description: 
 Which are the most crashworthy, and least crashworthy, 
@@ -107,7 +107,7 @@ crashes per 100,000 miles, for example.
 <top>
 
 <num> Number: 306
-African Civilian Deaths  ii german anthropogenic death disasters war i list casualties toll world wars
+<title> African Civilian Deaths  ii german anthropogenic death disasters war i list casualties toll world wars
 
 <desc> Description: 
 How many civilian non-combatants have been killed in 
@@ -125,7 +125,7 @@ directly or indirectly by armed conflict.
 <top>
 
 <num> Number: 307 
-New Hydroelectric Projects  aqua project zealand power
+<title> New Hydroelectric Projects  aqua project zealand power
 
 <desc> Description: 
 Identify hydroelectric projects proposed or under construction by
@@ -153,7 +153,7 @@ decision to drop a proposed plan.
 <top>
 
 <num> Number: 308 
-Implant Dentistry  sinus dental prosthodontics bicon implants
+<title> Implant Dentistry  dental bridge prosthodontics bicon implants
 
 <desc> Description: 
 What are the advantages and/or disadvantages of tooth implants?
@@ -177,7 +177,7 @@ bridge, or plate and comparative cost differential.
 <top>
 
 <num> Number: 309 
-Rap and Crime  kool g hop political gangsta hip
+<title> Rap and Crime  kool rapalot records g gangsta
 
 <desc> Description: 
 Evidence that rap music has a negative effect on young people.
@@ -205,7 +205,7 @@ of teenagers.
 <top>
 
 <num> Number: 310
-Radio Waves and Brain Cancer  electromagnetic radiation magnetic resonance imaging microwave
+<title> Radio Waves and Brain Cancer  electromagnetic radiation science microwave
 
 <desc> Description: 
 Evidence that radio waves from radio towers or car phones affect
@@ -229,7 +229,7 @@ general population.
 <top>
 
 <num> Number: 311
-Industrial Espionage  1996 cyber act spying economic
+<title> Industrial Espionage  1996 cyber act spying economic
 
 <desc> Description: 
 Document will discuss the theft of trade secrets along with 
@@ -256,7 +256,7 @@ relevant.
 <top>
 
 <num> Number: 312
-Hydroponics  hydroculture historical wood fibre organic
+<title> Hydroponics  expanded hydroculture historical organic clay aggregate
 
 <desc> Description: 
 Document will discuss the science of growing plants in
@@ -279,7 +279,7 @@ nutrient solution to promote plant growth.
 <top>
 
 <num> Number: 313
-Magnetic Levitation-Maglev  disambiguation maglev levitation
+<title> Magnetic Levitation-Maglev  disambiguation maglev levitation
 
 <desc> Description: 
 Commercial uses of Magnetic Levitation.
@@ -300,7 +300,7 @@ linked to Maglev are also relevant.
 <top>
 
 <num> Number: 314
-Marine Vegetation  islands fauna flora ecoregion kerguelen
+<title> Marine Vegetation  islands fauna flora ecoregion kerguelen
 
 <desc> Description: 
 Commercial harvesting of marine vegetation such as 
@@ -320,7 +320,7 @@ possible commercial uses such as fertilizer, etc.
 <top>
 
 <num> Number: 315
-Unexplained Highway Accidents flight orient united northwest airliners list states 710 incidents airlines involving
+<title> Unexplained Highway Accidents flight orient united northwest airliners list states 710 incidents airlines involving
 
 <desc> Description: 
 How many fatal highway accidents are there each 
@@ -339,7 +339,7 @@ into oncoming traffic."
 <top>
 
 <num> Number: 316
-Polygamy Polyandry Polygyny   christianity nonmonogamy
+<title> Polygamy Polyandry Polygyny   christianity nonmonogamy
 
 <desc> Description: 
 A look at the roots and prevalence of polygamy 
@@ -370,7 +370,7 @@ be considered relevant.
 <top>
 
 <num> Number: 317
-Unsolicited Faxes  act 2005 1991 junk telephone protection fax prevention consumer
+<title> Unsolicited Faxes  act 2005 1991 junk telephone protection fax prevention consumer
 
 <desc> Description: 
 Have regulations been passed by the FCC banning
@@ -392,7 +392,7 @@ an invasion of privacy is also relevant.
 <top>
 
 <num> Number: 318
-Best Retirement Country  pension age
+<title> Best Retirement Country  pension age
 
 <desc> Description: 
 Aside from the United States, which country offers 
@@ -412,7 +412,7 @@ retirement home.
 <top>
 
 <num> Number: 319
-New Fuel Sources  alternative gas fossil
+<title> New Fuel Sources  phaseout alternative fossil
 
 <desc> Description: 
 What research is ongoing for new fuel sources.
@@ -437,7 +437,7 @@ fuel to establish a new nuclear fuel system.
 <top>
 
 <num> Number: 320
-Undersea Fiber Optic Cable 
+<title> Undersea Fiber Optic Cable 
 
 <desc> Description: 
 Fiber optic link around the globe (Flag) will be
@@ -462,7 +462,7 @@ systems currently in place.
 <top>
 
 <num> Number: 321
-Women in Parliaments 
+<title> Women in Parliaments 
 
 <desc> Description: 
 Pertinent documents will reflect the fact that women
@@ -486,7 +486,7 @@ of women.
 <top>
 
 <num> Number: 322
-International Art Crime  forgery crimes against association research
+<title> International Art Crime  forgery crimes against association research
 
 <desc> Description: 
 Isolate instances of fraud or embezzlement in the international
@@ -506,7 +506,7 @@ relevant.
 <top>
 
 <num> Number: 323
-Literary/Journalistic Plagiarism  edgar allan poe ghostwriter
+<title> Literary/Journalistic Plagiarism  edgar allan poe ghostwriter
 
 <desc> Description: 
 Find instances of plagiarism in the literary and journalistic
@@ -526,7 +526,7 @@ others without attribution.
 <top>
 
 <num> Number: 324
-Argentine/British Relations dispute falklands falkland argentina islands war sovereignty foreign
+<title> Argentine/British Relations dispute falklands falkland argentina islands war sovereignty foreign
 
 <desc> Description: 
 Define Argentine and British international relations 
@@ -550,7 +550,7 @@ relevant.
 <top>
 
 <num> Number: 325
-Cult Lifestyles 
+<title> Cult Lifestyles 
 
 <desc> Description: 
 Describe a cult by name and identify the cult members'
@@ -572,7 +572,7 @@ not be relevant.
 <top>
 
 <num> Number: 326
-Ferry Sinkings   estonia south disasters sewol ms mv list korean
+<title> Ferry Sinkings   estonia south disasters sewol ms mv list korean
 
 <desc> Description: 
 Any report of a ferry sinking where 100 or more people
@@ -593,7 +593,7 @@ deaths would not be relevant.
 <top>
 
 <num> Number: 327
-Modern Slavery 
+<title> Modern Slavery 
 
 <desc> Description: 
 Identify a country or a city where there is evidence
@@ -615,7 +615,7 @@ be relevant.
 <top>
 
 <num> Number: 328
-Pope Beatifications ii pius innocent list people xi xii beatified john paul
+<title> Pope Beatifications ii pius innocent list people xi xii beatified john paul
 
 <desc> Description: 
 Identify an individual that has been beatified by the Pope.
@@ -633,7 +633,7 @@ of time, i.e., "late 17th century".
 <top>
 
 <num> Number: 329
-Mexican Air Pollution  mexico city index valley quality
+<title> Mexican Air Pollution  mexico city index valley quality
 
 <desc> Description: 
 Mexico City has the worst air pollution in the
@@ -658,7 +658,7 @@ appropriate.
 <top>
 
 <num> Number: 330
-Iran-Iraq Cooperation  islamic council iran iraq gulf supreme relations foreign
+<title> Iran-Iraq Cooperation  islamic council iran iraq gulf supreme relations foreign
 
 <desc> Description: 
 This query is looking for examples of cooperation or
@@ -680,7 +680,7 @@ the Gulf War would also be relevant).
 <top>
 
 <num> Number: 331
-World Bank Criticism  monetary fund subramaniam v international iyer
+<title> World Bank Criticism  central america
 
 <desc> Description: 
 What criticisms have been made of World Bank policies, 
@@ -701,7 +701,7 @@ its personnel being difficult to work with, etc.
 <top>
 
 <num> Number: 332
-Income Tax Evasion withholding united noncompliance states
+<title> Income Tax Evasion withholding united noncompliance states
 
 <desc> Description: 
 This query is looking for investigations that have 
@@ -721,7 +721,7 @@ criminals to justice.
 <top>
 
 <num> Number: 333
-Antibiotics Bacteria Disease  antibiotic broadspectrum sensitivity
+<title> Antibiotics Bacteria Disease  antibiotic broadspectrum sensitivity
 
 <desc> Description: 
 Determine the reasons why bacteria seems to be winning
@@ -746,7 +746,7 @@ more than 100 antibiotics now in use.
 <top>
 
 <num> Number: 334
-Export Controls Cryptography  law import united restrictions from states
+<title> Export Controls Cryptography  law import united restrictions from states
 
 <desc> Description: 
 Determine the usefulness and effectiveness of 
@@ -773,7 +773,7 @@ to compete in the international market.
 <top>
 
 <num> Number: 335
-Adoptive Biological Parents  adoption stepfamily parenting
+<title> Adoptive Biological Parents  adoption stepfamily parenting
 
 <desc> Description: 
 Identify the problems, and solutions to those problems, 
@@ -799,7 +799,7 @@ blocked by sealed court orders.
 <top>
 
 <num> Number: 336
-Black Bear Attacks  north american list fatal america
+<title> Black Bear Attacks  north american list fatal america
 
 <desc> Description: 
 A relevant document would discuss the frequency
@@ -825,7 +825,7 @@ savageness of the black bear.
 <top>
 
 <num> Number: 337
-Viral Hepatitis  b oncovirus virus
+<title> Viral Hepatitis  b oncovirus virus
 
 <desc> Description: 
 What research has been done on viral hepatitis 
@@ -852,7 +852,7 @@ following information:
 <top>
 
 <num> Number: 338
-Risk of Aspirin  action mechanism antiplatelet drug
+<title> Risk of Aspirin  action mechanism antiplatelet drug
 
 <desc> Description: 
 What adverse effects have people experienced while taking 
@@ -872,7 +872,7 @@ be stated.
 <top>
 
 <num> Number: 339
-Alzheimer's Drug Treatment 
+<title> Alzheimer's Drug Treatment 
 
 <desc> Description: 
 What drugs are being used in the treatment of 
@@ -890,7 +890,7 @@ of the drug's success or failure.
 <top>
 
 <num> Number: 340
-Land Mine Ban  landmines chechnya campaign antipersonnel international situation
+<title> Land Mine Ban  landmines chechnya campaign antipersonnel international situation
 
 <desc> Description: 
 Identify any actions being taken to propel the
@@ -916,7 +916,7 @@ of acres now made unusable due to use of these mines.
 <top>
 
 <num> Number: 341
-Airport Security  11 september due attacks repercussions ben international gurion
+<title> Airport Security  11 september due attacks repercussions ben international gurion
 
 <desc> Description: 
 A relevant document would discuss how effective
@@ -949,7 +949,7 @@ baggage compartment.
 <top>
 
 <num> Number: 342
-Diplomatic Expulsion  declared fergus persona grata guinea list non relations people cochranedyet foreign
+<title> Diplomatic Expulsion  declared fergus persona grata guinea list non relations people cochranedyet foreign
 
 <desc> Description: 
 The end of the Cold War seems to have intensified
@@ -976,7 +976,7 @@ of diplomatic personnel.
 <top>
 
 <num> Number: 343
-Police Deaths law metropolitan united service honduras enforcement national kingdom
+<title> Police Deaths law metropolitan united service honduras enforcement national kingdom
 
 <desc> Description: 
 Identify instances where a civilian policeman has
@@ -1003,7 +1003,7 @@ be considered relevant.
 <top>
 
 <num> Number: 344
-Abuses of E-Mail  agent transfer mail yahoo box message
+<title> Abuses of E-Mail  agent transfer mail yahoo box message
 
 <desc> Description: 
 The availability of E-mail to many people through their
@@ -1025,7 +1025,7 @@ not related to the payer's desired use of the system.
 <top>
 
 <num> Number: 345
-Overseas Tobacco Sales 
+<title> Overseas Tobacco Sales 
 
 <desc> Description: 
 Health studies primarily in the U.S. have caused reductions
@@ -1046,7 +1046,7 @@ with.
 <top>
 
 <num> Number: 346
-Educational Standards  reform education standardsbased united states
+<title> Educational Standards  reform education standardsbased united states
 
 <desc> Description: 
 There has long been a call for standards in U.S. education,
@@ -1068,7 +1068,7 @@ language).
 <top>
 
 <num> Number: 347
-Wildlife Extinction  sixth unnatural species endangered history
+<title> Wildlife Extinction  sixth unnatural species endangered history
 
 <desc> Description: 
 The spotted owl episode in America highlighted U.S. efforts
@@ -1087,7 +1087,7 @@ species, and steps taken to save the species.
 <top>
 
 <num> Number: 348
-Agoraphobia  disorder scale history without panic
+<title> Agoraphobia  disorder scale history without panic
 
 <desc> Description: 
 Is the fear of open or public places (Agoraphobia) a
@@ -1106,7 +1106,7 @@ individuals cope with this disorder.
 <top>
 
 <num> Number: 349
-Metabolism  acid industrial fructose crassulacean
+<title> Metabolism  acid industrial fructose crassulacean
 
 <desc> Description: 
 Document will discuss the chemical reactions 
@@ -1128,7 +1128,7 @@ the metabolic rate.
 <top>
 
 <num> Number: 350
-Health and Computer Terminals  desktop system timesharing plato
+<title> Health and Computer Terminals  desktop system timesharing plato
 
 <desc> Description: 
 Is it hazardous to the health of individuals to	work
@@ -1149,7 +1149,7 @@ health problems.
 <top>
 
 <num> Number: 351 
-Falkland petroleum exploration  dispute oil islands gas sovereignty geology
+<title> Falkland petroleum exploration  dispute oil islands gas sovereignty geology
 
 <desc> Description: 
 What information is available on petroleum exploration in 
@@ -1167,7 +1167,7 @@ continental South America are not relevant.
 <top>
 
 <num> Number: 352 
-British Chunnel impact   tv eurostar street series channel fighter tunnel
+<title> British Chunnel impact   tv eurostar street series channel fighter tunnel
 
 <desc> Description: 
 What impact has the Chunnel had on the British economy and/or 
@@ -1193,7 +1193,7 @@ Documents discussing the following issues are not relevant:
 <top>
 
 <num> Number: 353 
-Antarctica exploration
+<title> Antarctica exploration
 
 <desc> Description: 
 Identify systematic explorations and scientific investigations
@@ -1217,7 +1217,7 @@ experiment is identified.
 <top>
 
 <num> Number: 354 
-journalist risks  macintyre russia rosen james donal list journalists killed
+<title> journalist risks  macintyre russia rosen james donal list journalists killed
 
 <desc> Description: 
 Identify instances where a journalist has been put at risk (e.g.,
@@ -1234,7 +1234,7 @@ performance of his work is relevant.
 <top>
 
 <num> Number: 355
-ocean remote sensing  boundary overview data advanced center layer tropical atmospheric satellite southeastern
+<title> ocean remote sensing  boundary overview data advanced center layer tropical atmospheric satellite southeastern
 
 <desc> Description: 
 Identify documents discussing the development and application of
@@ -1257,7 +1257,7 @@ employed in ocean remote sensing is relevant.
 <top>
 
 <num> Number: 356
-postmenopausal estrogen Britain
+<title> postmenopausal estrogen Britain
 
 <desc> Description: 
 Identify documents discussing the use of estrogen by 
@@ -1275,7 +1275,7 @@ drugs are relevant.
 <top>
 
 <num> Number: 357
-territorial waters dispute  internal bank nuevo islands spratly bajo
+<title> territorial waters dispute  internal bank nuevo islands spratly bajo
 
 <desc> Description: 
 Identify documents discussing international boundary 
@@ -1301,7 +1301,7 @@ any of its non-controversial applications.
 <top>
 
 <num> Number: 358
-blood-alcohol fatalities alcoholrelated driving drunk united crashes under traffic states influence
+<title> blood-alcohol fatalities alcoholrelated driving drunk united crashes under traffic states influence
 
 <desc> Description: 
 What role does blood-alcohol level play in 
@@ -1319,7 +1319,7 @@ driver of the vehicle must be identified.
 <top>
 
 <num> Number: 359
-mutual fund predictors  market management index investment bond
+<title> mutual fund predictors  market management index investment bond
 
 <desc> Description: 
 Are there reliable and consistent predictors of
@@ -1338,7 +1338,7 @@ are considered relevant.
 <top>
 
 <num> Number: 360
-drug legalization benefits 
+<title> drug legalization benefits 
 
 <desc> Description: 
 What are the benefits, if any, of drug legalization?
@@ -1358,7 +1358,7 @@ is or is not perceived to be beneficial are relevant.
 <top>
 
 <num> Number: 361
-clothing sweatshops  antisweatshop sweatshop disambiguation movement
+<title> clothing sweatshops  antisweatshop sweatshop disambiguation movement
 
 <desc> Description: 
 Identify documents that discuss clothing sweatshops.
@@ -1376,7 +1376,7 @@ as:  "designer label".
 <top>
 
 <num> Number: 362
-human smuggling  gang against air sea protocol snakehead migrants land trafficking
+<title> human smuggling  gang against air sea protocol snakehead migrants land trafficking
 
 <desc> Description: 
 Identify incidents of human smuggling.
@@ -1394,7 +1394,7 @@ may not be willing participants.
 <top>
 
 <num> Number: 363
-transportation tunnel disasters  hill church
+<title> transportation tunnel disasters  hill church
 
 <desc> Description: 
 What disasters have occurred in tunnels used for
@@ -1416,7 +1416,7 @@ are relevant if lives were threatened.
 <top>
 
 <num> Number: 364
-rabies  prevalence disambiguation novel
+<title> rabies  prevalence disambiguation novel
 
 <desc> Description: 
 Identify documents discussing cases where rabies
@@ -1434,7 +1434,7 @@ the problem.
 <top>
 
 <num> Number: 365
-El Nino  atmospheric ocean drought circulation dipole indian
+<title> El Nino  atmospheric ocean drought circulation dipole indian
 
 <desc> Description: 
 What effects have been attributed to El Nino?
@@ -1452,7 +1452,7 @@ factor.
 <top>
 
 <num> Number: 366
-commercial cyanide uses  copperi ammonium nitrile
+<title> commercial cyanide uses  gold sodium thiosulfate extraction
 
 <desc> Description: 
 What are the industrial or commercial uses of 
@@ -1470,7 +1470,7 @@ industry.
 <top>
 
 <num> Number: 367
-piracy  somalia coast century 21st off women
+<title> piracy  mediterranean century 21st ancient women
 
 <desc> Description: 
 What modern instances have there been of old fashioned
@@ -1490,7 +1490,7 @@ boarded.
 <top>
 
 <num> Number: 368
-in vitro fertilization  assisted blastocyst technology reproductive
+<title> in vitro fertilization  assisted blastocyst technology reproductive
 
 <desc> Description: 
 Identify documents that discuss in vitro
@@ -1512,7 +1512,7 @@ also relevant.
 <top>
 
 <num> Number: 369
-anorexia nervosa bulimia  memoir wasted diagnoses differential
+<title> anorexia nervosa bulimia  memoir wasted diagnoses differential
 
 <desc> Description: 
 What are the causes and treatments of anorexia nervosa
@@ -1532,7 +1532,7 @@ disorders are also relevant.
 <top>
 
 <num> Number: 370
-food/drug laws 
+<title> food/drug laws 
 
 <desc> Description: 
 What are the laws dealing with the quality and processing
@@ -1557,7 +1557,7 @@ fiber and low fat.
 <top>
 
 <num> Number: 371
-health insurance holistic 
+<title> health insurance holistic 
 
 <desc> Description: 
 What is the extent of health insurance coverage of 
@@ -1576,7 +1576,7 @@ education or wellness sessions are also relevant.
 <top>
 
 <num> Number: 372
-Native American casino foxwoods united casinos resort list states
+<title> Native American casino foxwoods united casinos resort list states
 
 <desc> Description: 
 Identify documents that discuss the growth of Native
@@ -1595,7 +1595,7 @@ American tribal autonomy.
 <top>
 
 <num> Number: 373
-encryption equipment export  pretty cryptography privacy good
+<title> encryption equipment export  pretty cryptography privacy good
 
 <desc> Description: 
 Identify documents that discuss the concerns of
@@ -1617,7 +1617,7 @@ anti-crime activities are relevant.
 <top>
 
 <num> Number: 374
-Nobel prize winners  muslim affiliation university laureates list ig
+<title> Nobel prize winners  muslim affiliation university laureates list ig
 
 <desc> Description: 
 Identify and provide background information on Nobel
@@ -1636,7 +1636,7 @@ no year is required.
 <top>
 
 <num> Number: 375
-hydrogen energy  journal aircraft international hydrogenpowered
+<title> hydrogen energy  journal aircraft international hydrogenpowered
 
 <desc> Description: 
 What is the status of research on hydrogen as a 
@@ -1653,7 +1653,7 @@ of hydrogen as fuel to power engines.
 <top>
 
 <num> Number: 376
-World Court  cases permanent disambiguation justice list international
+<title> World Court  cases permanent disambiguation justice list international
 
 <desc> Description: 
 What types of cases were heard by the World Court
@@ -1670,7 +1670,7 @@ Court, are relevant.
 <top>
 
 <num> Number: 377
-cigar smoking  bar etiquette aficionado
+<title> cigar smoking  bar etiquette aficionado
 
 <desc> Description: 
 Identify documents that discuss the renewed 
@@ -1689,7 +1689,7 @@ cigar production are relevant.
 <top>
 
 <num> Number: 378
-euro opposition  coins poland history latvian
+<title> euro opposition  coins poland history latvian
 
 <desc> Description: 
 Identify documents that discuss opposition to the
@@ -1706,7 +1706,7 @@ the reason(s) for their opposition to its use.
 <top>
 
 <num> Number: 379
-mainstreaming 
+<title> mainstreaming 
 
 <desc> Description: 
 Identify documents that discuss mainstreaming
@@ -1727,7 +1727,7 @@ children".
 <top>
 
 <num> Number: 380
-obesity medical treatment  management medication antiobesity
+<title> obesity medical treatment  journal management international
 
 <desc> Description: 
 Identify documents that discuss medical treatment
@@ -1745,7 +1745,7 @@ resulting from the applications.
 <top>
 
 <num> Number: 381
-alternative medicine  therapies traditional journal health complementary
+<title> alternative medicine  therapies traditional journal health complementary
 
 <desc> Description: 
 What forms of alternative medicine are being
@@ -1766,7 +1766,7 @@ procedure.
 <top>
 
 <num> Number: 382
-hydrogen fuel automobiles  alternative storage cell vehicle
+<title> hydrogen fuel automobiles  alternative storage cell vehicle
 
 <desc> Description: 
 Identify documents that discuss the use of hydrogen as 
@@ -1786,7 +1786,7 @@ the use of metal hydrides for use in piston engines.
 <top>
 
 <num> Number: 383
-mental illness drugs myth service health community
+<title> mental illness drugs myth abuse administration substance health services
 
 <desc> Description: 
 Identify drugs used in the treatment of mental illness.  
@@ -1801,7 +1801,7 @@ or generic type of drug.  Generalities are not relevant.
 <top>
 
 <num> Number: 384
-space station moon 
+<title> space station moon  commercial exploration bigelow program international
 
 <desc> Description: 
 Identify documents that discuss the building of
@@ -1823,7 +1823,7 @@ and money to accomplish such a feat.
 <top>
 
 <num> Number: 385
-hybrid fuel cars  plugin electric vehicles toyota prius list vehicle
+<title> hybrid fuel cars  cell vehicle
 
 <desc> Description: 
 Identify documents that discuss the current status of
@@ -1842,7 +1842,7 @@ derived; and shortcomings in horsepower and passenger comfort.
 <top>
 
 <num> Number: 386
-teaching disabled children  rehabilitation centre hospital
+<title> teaching disabled children  rehabilitation centre hospital
 
 <desc> Description: 
 What methods are currently utilized or anticipated in 
@@ -1859,7 +1859,7 @@ that is anticipated being available in the near future.
 <top>
 
 <num> Number: 387
-radioactive waste  highlevel lowlevel management united authority repository policy states
+<title> radioactive waste  highlevel lowlevel management united authority repository policy states
 
 <desc> Description: 
 Identify documents that discuss effective and safe ways to 
@@ -1875,7 +1875,7 @@ vitrification, and in underground nuclear explosion are relevant.
 <top>
 
 <num> Number: 388
-organic soil enhancement  management farming
+<title> organic soil enhancement  management farming
 
 <desc> Description: 
 Identify documents that discuss the use of organic
@@ -1894,7 +1894,7 @@ solely on chemical fertilizers.
 <top>
 
 <num> Number: 389
-illegal technology transfer  country laws surrogacy
+<title> illegal technology transfer  datasaab
 
 <desc> Description: 
 What specific entities have been accused of illegal 
@@ -1915,7 +1915,7 @@ provision violated the laws of the provider's country.
 <top>
 
 <num> Number: 390
-orphan drugs  act 1983 prescription united disambiguation prices drug states
+<title> orphan drugs  act 1983 orphannor disambiguation drug
 
 <desc> Description: 
 Find documents that discuss issues associated with so-called 
@@ -1934,7 +1934,7 @@ other countries.
 <top>
 
 <num> Number: 391
-R&D drug prices  340b prescription united program orphan pricing states
+<title> R&D drug prices  340b prescription united program orphan pricing states
 
 <desc> Description: 
 Identify documents that discuss the impact of the cost of research
@@ -1953,7 +1953,7 @@ R&D costs, are not relevant.
 <top>
 
 <num> Number: 392
-robotics  developmental moley competition first
+<title> robotics  developmental moley competition first
 
 <desc> Description: 
 What are the applications of robotics in the world today?
@@ -1971,7 +1971,7 @@ usually done by people, then it is not relevant.
 <top>
 
 <num> Number: 393
-mercy killing  types legality euthanasia india list
+<title> mercy killing  types legality euthanasia india list
 
 <desc> Description: 
 Identify documents that discuss mercy killings.
@@ -1990,7 +1990,7 @@ murder-suicide are not relevant.
 <top>
 
 <num> Number: 394
-home schooling  homeschooling africa compulsory education south international status statistics
+<title> home schooling  homeschooling africa compulsory education south international status statistics
 
 <desc> Description: 
 Identify documents that discuss the education of 
@@ -2013,7 +2013,7 @@ therefore relevant.
 <top>
 
 <num> Number: 395
-tourism  world wellness international day
+<title> tourism  world business geography day
 
 <desc> Description: 
 Provide examples of successful attempts to attract 
@@ -2034,7 +2034,7 @@ increase are relevant.
 <top>
 
 <num> Number: 396
-sick building syndrome  autoimmuneinflammatory induced indoor ashrae air adjuvants quality
+<title> sick building syndrome  autoimmuneinflammatory induced indoor ashrae air adjuvants quality
 
 <desc> Description: 
 Identify documents that discuss sick building syndrome or
@@ -2053,7 +2053,7 @@ such as carpal tunnel syndrome, are not relevant.
 <top>
 
 <num> Number: 397
-automobile recalls big manufacturers company history detroit three
+<title> automobile recalls big manufacturers company history detroit three
 
 <desc> Description: 
 Identify documents that discuss the reasons for 
@@ -2070,7 +2070,7 @@ that discuss truck recalls are not relevant.
 <top>
 
 <num> Number: 398
-dismantling Europe's arsenal 
+<title> dismantling Europe's arsenal 
 
 <desc> Description: 
 Identify documents that discuss the 
@@ -2094,7 +2094,7 @@ this arms cut is having on European nations.
 <top>
 
 <num> Number: 399
-oceanographic vessels  hole institution woods oceanography scripps
+<title> oceanographic vessels  hole institution woods oceanography scripps
 
 <desc> Description: 
 Identify documents that discuss the 
@@ -2122,7 +2122,7 @@ activity is also relevant.
 <top>
 
 <num> Number: 400 
-Amazon rain forest  tropical broadleaf subtropical rainforest basin moist forests deforestation
+<title> Amazon rain forest  brazil rainforest basin deforestation
 
 <desc> Description: 
 What measures are being taken by local South
@@ -2143,7 +2143,7 @@ degrees of success in these endeavors.
 <top>
 
 <num> Number: 401 
-foreign minorities, Germany  poles demographics
+<title> foreign minorities, Germany  poles demographics
 
 <desc> Description: 
 What language and cultural differences impede the integration 
@@ -2160,7 +2160,7 @@ immigration problems unrelated to Germany are also not relevant.
 <top>
 
 <num> Number: 402 
-behavioral genetics  association aggression behavior
+<title> behavioral genetics  association aggression behavior
 
 <desc> Description: 
 What is happening in the field of behavioral genetics,
@@ -2182,7 +2182,7 @@ Alzheimer's disease).
 <top>
 
 <num> Number: 403 
-osteoporosis  archives foundation international
+<title> osteoporosis  archives foundation international
 
 <desc> Description: 
 Find information on the effects of the dietary intakes
@@ -2202,7 +2202,7 @@ bone mass is also relevant.
 <top>
 
 <num> Number: 404 
-Ireland, peace talks  process agreement decommissioning friday northern good
+<title> Ireland, peace talks  process agreement decommissioning friday northern good
 
 <desc> Description: 
 How often were the peace talks in Ireland delayed
@@ -2217,7 +2217,7 @@ attributable to acts of violence are not relevant.
 <top>
 
 <num> Number: 405 
-cosmic events  horizon cosmological singularity censorship gravitational hypothesis
+<title> cosmic events  horizon cosmological singularity censorship gravitational hypothesis
 
 <desc> Description: 
 What unexpected or unexplained cosmic events or
@@ -2234,7 +2234,7 @@ technology are not relevant.
 <top>
 
 <num> Number: 406 
-Parkinson's disease 
+<title> Parkinson's disease 
 
 <desc> Description: 
 What is being done to treat the symptoms of 
@@ -2251,7 +2251,7 @@ an indication of success or failure.
 <top>
 
 <num> Number: 407 
-poaching, wildlife preserves  conservation save elephants
+<title> poaching, wildlife preserves  conservation save elephants
 
 <desc> Description: 
 What is the impact of poaching on 
@@ -2268,7 +2268,7 @@ authorities.
 <top>
 
 <num> Number: 408 
-tropical storms  atlantic 2006 scales sandy season hurricane cyclone
+<title> tropical storms  atlantic 2006 scales sandy season hurricane cyclone
 
 <desc> Description: 
 What tropical storms (hurricanes and typhoons) have
@@ -2285,7 +2285,7 @@ the damage caused by a tropical storm as "slight", "limited", or
 <top>
 
 <num> Number: 409 
-legal, Pan Am, 103  flight world investigation airways bombing american
+<title> legal, Pan Am, 103  flight world investigation airways bombing american
 
 <desc> Description: 
 What legal actions have resulted from the destruction
@@ -2303,7 +2303,7 @@ diplomatic jousting are not relevant.
 <top>
 
 <num> Number: 410 
-Schengen agreement  border system central information control america4
+<title> Schengen agreement  border system central information control america4
 
 <desc> Description: 
 Who is involved in the Schengen agreement to eliminate border
@@ -2325,7 +2325,7 @@ crossovers for business purposes are not relevant.
 <top>
 
 <num> Number: 411 
-salvaging, shipwreck, treasure  hunting salvage marine
+<title> salvaging, shipwreck, treasure  hunting salvage marine
 
 <desc> Description: 
 Find information on shipwreck salvaging: the
@@ -2345,7 +2345,7 @@ on the disposition of the recovered treasure.
 <top>
 
 <num> Number: 412 
-airport security  11 september due attacks repercussions ben international gurion
+<title> airport security  11 september due attacks repercussions ben international gurion
 
 <desc> Description: 
 What security measures are in effect or are proposed
@@ -2366,7 +2366,7 @@ security of each are also relevant.
 <top>
 
 <num> Number: 413 
-steel production  china industry countries list
+<title> steel production  china industry countries list
 
 <desc> Description: 
 What are new methods of producing steel?
@@ -2385,7 +2385,7 @@ the national and international markets are also relevant.
 <top>
 
 <num> Number: 414 
-Cuba, sugar, exports  agriculture economy
+<title> Cuba, sugar, exports  agriculture economy
 
 <desc> Description: 
 How much sugar does Cuba export and which
@@ -2402,7 +2402,7 @@ are mentioned explicitly.
 <top>
 
 <num> Number: 415 
-drugs, Golden Triangle 
+<title> drugs, Golden Triangle 
 
 <desc> Description: 
 What is known about drug trafficking in the
@@ -2422,7 +2422,7 @@ drugs produced in the area.
 <top>
 
 <num> Number: 416 
-Three Gorges Project  qutang largest gorge power stations tiger list leaping hydroelectric
+<title> Three Gorges Project  qutang largest gorge power stations tiger list leaping hydroelectric
 
 <desc> Description: 
 What is the status of The Three Gorges Project?
@@ -2440,7 +2440,7 @@ project are not relevant.
 <top>
 
 <num> Number: 417 
-creativity  techniques concept disambiguation history
+<title> creativity  techniques concept disambiguation history
 
 <desc> Description: 
 Find ways of measuring creativity.
@@ -2455,7 +2455,7 @@ creativity, and factors linked to creativity.
 <top>
 
 <num> Number: 418 
-quilts, income  quilt art quilting history kentucky paducah
+<title> quilts, income  quilt art quilting history kentucky paducah
 
 <desc> Description: 
 In what ways have quilts been used to generate income?
@@ -2472,7 +2472,7 @@ for fundraising.
 <top>
 
 <num> Number: 419 
-recycle, automobile tires  outline balance tire
+<title> recycle, automobile tires  outline balance tire
 
 <desc> Description: 
 What new uses have been developed for old
@@ -2491,7 +2491,7 @@ environment for heat generation.
 <top>
 
 <num> Number: 420 
-carbon monoxide poisoning  breath allparty parliamentary group
+<title> carbon monoxide poisoning  breath allparty parliamentary group
 
 <desc> Description: 
 How widespread is carbon monoxide poisoning on 
@@ -2511,7 +2511,7 @@ they can contain carbon monoxide.
 <top>
 
 <num> Number: 421 
-industrial waste disposal  solid united management hazardous policy states
+<title> industrial waste disposal  solid united management hazardous policy states
 
 <desc> Description: 
 How is the disposal of industrial waste being accomplished
@@ -2530,7 +2530,7 @@ methods are not relevant.
 <top>
 
 <num> Number: 422 
-art, stolen, forged de forgery drewe john elmyr hory
+<title> art, stolen, forged de forgery drewe john elmyr hory
 
 <desc> Description: 
 What incidents have there been of stolen or forged art?
@@ -2547,7 +2547,7 @@ etc. are not relevant.
 <top>
 
 <num> Number: 423 
-Milosevic, Mirjana Markovic  socialist left coalition serbia party
+<title> Milosevic, Mirjana Markovic  socialist left coalition serbia party
 
 <desc> Description: 
 Find references to Milosevic's wife, Mirjana Markovic.
@@ -2563,7 +2563,7 @@ without specifying his wife, is not relevant.
 <top>
 
 <num> Number: 424 
-suicides  century foxconn virgin 21st film list
+<title> suicides  century foxconn virgin 21st film list
 
 <desc> Description: 
 Give examples of alleged suicides that aroused suspicion
@@ -2580,7 +2580,7 @@ them as murder.
 <top>
 
 <num> Number: 425 
-counterfeiting money  banknote detection counterfeit united pen currency coin states
+<title> counterfeiting money  banknote detection counterfeit united pen currency coin states
 
 <desc> Description: 
 What counterfeiting of money is being done in
@@ -2596,7 +2596,7 @@ themselves are not relevant.
 <top>
 
 <num> Number: 426 
-law enforcement, dogs 
+<title> law enforcement, dogs 
 
 <desc> Description: 
 Provide information on the use of dogs worldwide for 
@@ -2612,7 +2612,7 @@ and their handlers are also relevant.
 <top>
 
 <num> Number: 427
-UV damage, eyes  effects sunlight exposure ultraviolet index health photoaging
+<title> UV damage, eyes  effects sunlight exposure ultraviolet index health photoaging
 
 <desc> Description: 
 Find documents that discuss the damage ultraviolet (UV)
@@ -2633,7 +2633,7 @@ sources or lasers are not relevant.
 <top>
 
 <num> Number: 428 
-declining birth rates  total rate subreplacement fertility transition demographic
+<title> declining birth rates  total rate subreplacement fertility transition demographic
 
 <desc> Description: 
 Do any countries other than the U.S. and China have
@@ -2650,7 +2650,7 @@ than the one preceding year.
 <top>
 
 <num> Number: 429 
-Legionnaires' disease 
+<title> Legionnaires' disease 
 
 <desc> Description: 
 Identify outbreaks of Legionnaires' disease.
@@ -2666,7 +2666,7 @@ not relevant.
 <top>
 
 <num> Number: 430 
-killer bee attacks 
+<title> killer bee attacks 
 
 <desc> Description: 
 Identify instances of attacks on humans by Africanized 
@@ -2683,7 +2683,7 @@ also cite an attack on a human.
 <top>
 
 <num> Number: 431 
-robotic technology 
+<title> robotic technology 
 
 <desc> Description: 
 What are the latest developments in robotic technology?
@@ -2699,7 +2699,7 @@ not relevant.
 <top>
 
 <num> Number: 432 
-profiling, motorists, police  new city maryland york state department
+<title> profiling, motorists, police  new city maryland york state department
 
 <desc> Description: 
 Do police departments use "profiling" to stop motorists?
@@ -2715,7 +2715,7 @@ individuals by foreign security forces are not relevant.
 <top>
 
 <num> Number: 433 
-Greek, philosophy, stoicism  stoic hellenistic pneuma
+<title> Greek, philosophy, stoicism  stoic hellenistic pneuma
 
 <desc> Description: 
 Is there contemporary interest in the Greek
@@ -2731,7 +2731,7 @@ artistic productions are all relevant.
 <top>
 
 <num> Number: 434 
-Estonia, economy  estoniarelated index articles
+<title> Estonia, economy  estoniarelated index articles
 
 <desc> Description: 
 What is the state of the economy of Estonia?
@@ -2748,7 +2748,7 @@ transportation or pollution.
 <top>
 
 <num> Number: 435 
-curbing population growth  overpopulation malthusianism human sustainability
+<title> curbing population growth  overpopulation malthusianism human sustainability
 
 <desc> Description: 
 What measures have been taken worldwide and what 
@@ -2767,7 +2767,7 @@ involuntarily reducing the population are not relevant.
 <top>
 
 <num> Number: 436 
-railway accidents  classification
+<title> railway accidents  wreck classification train
 
 <desc> Description: 
 What are the causes of railway accidents throughout
@@ -2787,7 +2787,7 @@ are not relevant, unless an actual accident is described.
 <top>
 
 <num> Number: 437 
-deregulation, gas, electric  maryland company industry power pacific
+<title> deregulation, gas, electric  maryland company industry power pacific
 
 <desc> Description: 
 What has been the experience of residential utility
@@ -2804,7 +2804,7 @@ of utilities for commercial customers.
 <top>
 
 <num> Number: 438 
-tourism, increase  world organization thailand
+<title> tourism, increase  world organization thailand
 
 <desc> Description: 
 What countries are experiencing an increase in
@@ -2824,7 +2824,7 @@ discussing only projected increases are not relevant.
 <top>
 
 <num> Number: 439 
-inventions, scientific discoveries  filipino list
+<title> inventions, scientific discoveries  historic timeline list indian invention
 
 <desc> Description: 
 What new inventions or scientific discoveries have been
@@ -2842,7 +2842,7 @@ that are not patentable are not relevant.
 <top>
 
 <num> Number: 440 
-child labor  deterrence committee act against national global march
+<title> child labor  deterrence committee act against national global march
 
 <desc> Description: 
 What steps are being taken by governments or corporations 
@@ -2859,7 +2859,7 @@ operations.
 <top>
 
 <num> Number: 441 
-Lyme disease  effects exposure connecticut weather borrelia burgdorferi climate
+<title> Lyme disease  effects exposure connecticut weather borrelia burgdorferi climate
 
 <desc> Description: 
 How do you prevent and treat Lyme disease?
@@ -2875,7 +2875,7 @@ treatments of the disease are also relevant.
 <top>
 
 <num> Number: 442 
-heroic acts  hero reluctant
+<title> heroic acts  hero reluctant
 
 <desc> Description: 
 Find accounts of selfless heroic acts by individuals or 
@@ -2891,7 +2891,7 @@ relevant.
 <top>
 
 <num> Number: 443 
-U.S., investment, Africa 
+<title> U.S., investment, Africa 
 
 <desc> Description: 
 What is the extent of U.S. (government and private)
@@ -2908,7 +2908,7 @@ aid organizations are also relevant.
 <top>
 
 <num> Number: 444 
-supercritical fluids critical reactor thermodynamics water micronization point
+<title> supercritical fluids critical reactor thermodynamics water micronization point
 
 <desc> Description: 
 What are the potential uses for supercritical fluids
@@ -2924,7 +2924,7 @@ producing the supercritical fluid.
 <top>
 
 <num> Number: 445
-women clergy  clerical benefit celibacy
+<title> women clergy  clerical benefit celibacy
 
 <desc> Description: 
 What other countries besides the United States are considering 
@@ -2942,7 +2942,7 @@ must be as church pastor rather than some other church capacity
 <top>
 
 <num> Number: 446 
-tourists, violence 
+<title> tourists, violence 
 
 <desc> Description: 
 Where are tourists likely to be subjected to
@@ -2958,7 +2958,7 @@ incidents are not relevant.
 <top>
 
 <num> Number: 447 
-Stirling engine  robert generator applications radioisotope
+<title> Stirling engine  robert generator applications radioisotope
 
 <desc> Description: 
 What new developments and applications are there
@@ -2973,7 +2973,7 @@ Stirling engine (also known as the Stirling cycle) are relevant.
 <top>
 
 <num> Number: 448 
-ship losses  ii world united navy war list states
+<title> ship losses  ii world united navy war list states
 
 <desc> Description: 
 Identify instances in which weather was a main or contributing
@@ -2988,7 +2988,7 @@ or coastal waters.
 <top>
 
 <num> Number: 449 
-antibiotics ineffectiveness  amoxicillin staphylococcus aureus tetracycline
+<title> antibiotics ineffectiveness  amoxicillin staphylococcus aureus tetracycline
 
 <desc> Description: 
 What has caused the current ineffectiveness of
@@ -3009,7 +3009,7 @@ antibiotics.
 <top>
 
 <num> Number: 450 
-King Hussein, peace  death bin jordan funeral state prince hamzah
+<title> King Hussein, peace  death bin jordan funeral state prince hamzah
 
 <desc> Description: 
 How significant a figure over the years was the late
@@ -3029,7 +3029,7 @@ middle-east countries or the U.S.
 
 <top>
 <num> Number: 601
-Turkey Iraq water iraqis
+<title> Turkey Iraq water iraqis
 
 <desc> Description:
 What is the effect of Turkish river control projects on Iraqi
@@ -3047,7 +3047,7 @@ water to Syria, Israel and Lebanon) are not relevant.
 
 <top>
 <num> Number: 602
-Czech, Slovak sovereignty constitution czechoslovak nationality republic history slovakia
+<title> Czech, Slovak sovereignty
 
 <desc> Description:
 Retrieve information regarding the process by which the
@@ -3066,7 +3066,7 @@ external are not relevant.
 
 <top>
 <num> Number: 603
-Tobacco cigarette lawsuit
+<title> Tobacco cigarette lawsuit
 
 <desc> Description:
 Retrieve documents regarding U.S. lawsuits against the tobacco industry
@@ -3083,7 +3083,7 @@ about fraud, lack of warning, and nicotine 'spiking' are all relevant.
 
 <top>
 <num> Number: 604
-Lyme disease arthritis old connecticut borrelia burgdorferi
+<title> Lyme disease arthritis old connecticut borrelia burgdorferi
 
 <desc> Description:
 What evidence is there to link tick-borne Lyme disease with arthritis?
@@ -3098,7 +3098,7 @@ Lyme disease and inflammatory joint disorder are also relevant.
 
 <top>
 <num> Number: 605
-Great Britain health care
+<title> Great Britain health care
 
 <desc> Description:
 What are the pros and cons of Great Britain's universal health
@@ -3115,7 +3115,7 @@ unless the document also contains a specific recommendation or criticism.
 
 <top>
 <num> Number: 606
-leg traps ban  pit trapping
+<title> leg traps ban  pest pit control trapping
 
 <desc> Description:
 Find documents that discuss banning leg traps used to capture animals.
@@ -3131,7 +3131,7 @@ also relevant.
 
 <top>
 <num> Number: 607
-human genetic code genetics biology translation mitochondrial
+<title> human genetic code genetics biology translation mitochondrial
 
 <desc> Description:
 What progress is being made in the effort to map and sequence
@@ -3150,7 +3150,7 @@ genetically engineered organisms are irrelevant.
 
 <top>
 <num> Number: 608
-taxing social security  insurance contributions act united federal tax payroll states
+<title> taxing social security  insurance contributions act united federal tax payroll states
 
 <desc> Description:
 Find articles that discuss the pros and cons of taxing U.S. social
@@ -3166,7 +3166,7 @@ itself or other countries' taxation are irrelevant.
 
 <top>
 <num> Number: 609
-per capita alcohol consumption country countries list rankings russia top international beer
+<title> per capita alcohol consumption country countries list rankings russia top international beer
 
 <desc> Description:
 Find documents that discuss per capita consumption of alcohol by 
@@ -3186,7 +3186,7 @@ per capita consumption are also relevant.
 
 <top>
 <num> Number: 610
-minimum wage adverse impact insurance united health states
+<title> minimum wage adverse impact insurance united health states
 
 <desc> Description:
 Find claims made by U.S. small businesses regarding the adverse
@@ -3201,7 +3201,7 @@ to raising the minimum wage by U.S. small businesses.
 
 <top>
 <num> Number: 611
-Kurds Germany violence turkey history
+<title> Kurds Germany violence turkey history
 
 <desc> Description:
 What violent activities have Kurds, or members of the
@@ -3226,7 +3226,7 @@ are irrelevant.
 
 <top>
 <num> Number: 612
-Tibet protesters uprisings protests 1950 sinicization since
+<title> Tibet protesters uprisings protests 1950 sinicization since
 
 <desc> Description:
 What has been the outcome for the pro-independence protesters in Tibet
@@ -3243,7 +3243,7 @@ arrests are irrelevant.
 
 <top>
 <num> Number: 613
-Berlin wall disposal west list deaths teufelsberg
+<title> Berlin wall disposal west list deaths teufelsberg
 
 <desc> Description:
 How were pieces of the Berlin wall disposed of after their removal?
@@ -3260,7 +3260,7 @@ and plans that were not implemented.
 
 <top>
 <num> Number: 614
-Flavr Savr tomato polygalacturonase modified genetically
+<title> Flavr Savr tomato polygalacturonase modified genetically
 
 <desc> Description:
 Find information about the first genetically modified food product to
@@ -3277,7 +3277,7 @@ tomato.
 
 <top>
 <num> Number: 615
-timber exports Asia mahogany logging myanmar illegal deforestation
+<title> timber exports Asia mahogany logging myanmar illegal deforestation
 
 <desc> Description:
 What is the extent of U.S. raw timber exports to Asia, and what effect
@@ -3294,7 +3294,7 @@ the timber industry in general, to be relevant.
 
 <top>
 <num> Number: 616
-Volkswagen Mexico  industry automotive
+<title> Volkswagen Mexico  industry automotive
 
 <desc> Description:
 What is the history and extent of Volkswagen production in Mexico?
@@ -3308,7 +3308,7 @@ Volkswagen production in Mexico.
 
 <top>
 <num> Number: 617
-Russia Cuba economy tourism healthcare
+<title> Russia Cuba economy tourism healthcare
 
 <desc> Description:
 What effect has the reduction of Russian support had on the Cuban economy?
@@ -3325,7 +3325,7 @@ projects.
 
 <top>
 <num> Number: 618
-Ayatollah Khomeini death iranian mostafa legacy thought ruhollah political revolution
+<title> Ayatollah Khomeini death iranian mostafa legacy thought ruhollah political revolution
 
 <desc> Description:
 Find documents that describe the death of Iranian President
@@ -3341,7 +3341,7 @@ Documents about the movement Khomeini led when alive are not relevant.
 
 <top>
 <num> Number: 619
-Winnie Mandela scandal  p mbeki death w botha thabo nelson
+<title> Winnie Mandela scandal  p mbeki death w botha thabo nelson
 
 <desc> Description:
 What part did Winnie Mandela herself play in the kidnapping, beating
@@ -3358,7 +3358,7 @@ of innocence are irrelevant.
 
 <top>
 <num> Number: 620
-France nuclear testing power list weapons states
+<title> France nuclear testing power list weapons states
 
 <desc> Description:
 How has France responded to protests against its nuclear testing in the
@@ -3374,7 +3374,7 @@ in the document.
 
 <top>
 <num> Number: 621
-women ordained Church of England christian communion ordination list anglican
+<title> women ordained Church of England christian communion ordination list anglican
 
 <desc> Description:
 What are the arguments for and against Great Britain's approval
@@ -3389,7 +3389,7 @@ and the British parliament are relevant.
 
 <top>
 <num> Number: 622
-price fixing  lysine collusion conspiracy resale pricefixing maintenance
+<title> price fixing  lysine collusion conspiracy resale pricefixing maintenance
 
 <desc> Description:
 Identify companies or corporations that have been accused or indicted of
@@ -3404,7 +3404,7 @@ Documents about price fixing by the stock market are not relevant.
 
 <top>
 <num> Number: 623
-toxic chemical weapon convention warfare list weapons agents
+<title> toxic chemical weapon convention warfare list weapons agents
 
 <desc> Description:
 Gather any information that mentions ricin, sarin, soman, or anthrax as a
@@ -3419,7 +3419,7 @@ as weapons.
 
 <top>
 <num> Number: 624
-SDI Star Wars cultural game initiative strategic defense impact arcade
+<title> SDI Star Wars cultural game initiative strategic defense impact arcade
 
 <desc> Description:
 What are the pros and cons of developing the Strategic Defense
@@ -3439,7 +3439,7 @@ had been oversold are relevant.
 
 <top>
 <num> Number: 625
-arrests bombing WTC 11 world trade september attacks one center yousef ramzi
+<title> arrests bombing WTC 11 world trade september attacks one center yousef ramzi
 
 <desc> Description:
 Identify documents that provide information on the arrest and/or
@@ -3455,7 +3455,7 @@ are not relevant.
 
 <top>
 <num> Number: 626
-human stampede  sabarimala sallah disambiguation 2011 ilorin
+<title> human stampede  sabarimala sallah disambiguation 2011 ilorin
 
 <desc> Description:
 Find reports of human stampedes that have resulted in 20 or more deaths.
@@ -3471,7 +3471,7 @@ place such as a sporting event, bar, restaurant or entertainment event.
 
 <top>
 <num> Number: 627
-Russian food crisis
+<title> Russian food crisis
 
 <desc> Description:
 What steps are being taken by the U.S. to help Russia solve the food crisis
@@ -3490,7 +3490,7 @@ countries' involvement are not relevant.
 
 <top>
 <num> Number: 628
-U.S. invasion of Panama deception united installations military list former states
+<title> U.S. invasion of Panama deception united installations military list former states
 
 <desc> Description:
 What justification was used by the U.S. government to invade Panama,
@@ -3507,7 +3507,7 @@ invasion by other governments are not relevant.
 
 <top>
 <num> Number: 629
-abortion clinic attack  antiabortion access act freedom entrances violence
+<title> abortion clinic attack  antiabortion access act freedom entrances violence
 
 <desc> Description:
 What is the incidence of violent attacks on abortion clinics and the
@@ -3525,7 +3525,7 @@ activities such as trespassing, picketing, etc. are irrelevant.
 
 <top>
 <num> Number: 630
-Gulf War Syndrome  reform act 2014 health pyridostigmine research
+<title> Gulf War Syndrome  reform act 2014 health pyridostigmine research
 
 <desc> Description:
 Retrieve documents containing information about the symptoms
@@ -3543,7 +3543,7 @@ a synonym for the condition and is considered relevant.
 
 <top>
 <num> Number: 631
-Mandela South Africa President apartheid nelson
+<title> Mandela South Africa President
 
 <desc> Description:
 Find documents relating to the election of Nelson Mandela as president
@@ -3558,7 +3558,7 @@ president of South Africa to be relevant.
 
 <top>
 <num> Number: 632
-southeast Asia tin mining malaysia age bronze
+<title> southeast Asia tin mining malaysia age bronze
 
 <desc> Description:
 What are the major tin mining countries in southeast Asia?
@@ -3574,7 +3574,7 @@ China, Malaysia, Indonesia, Viet Nam, Burma, Thailand and Laos.
 
 <top>
 <num> Number: 633
-Welsh devolution  united commission wales independence kingdom
+<title> Welsh devolution  united commission wales kingdom labour
 
 <desc> Description:
 What is the history of the Welsh devolution movement?
@@ -3588,7 +3588,7 @@ Welsh devolution movement.
 
 <top>
 <num> Number: 634
-L-tryptophan deaths indole pellagra tryptophan
+<title> L-tryptophan deaths indole pellagra tryptophan
 
 <desc> Description:
 How many deaths are attributed to having taken tainted L-tryptophan
@@ -3605,7 +3605,7 @@ that did not result in death are not relevant.
 
 <top>
 <num> Number: 635
-doctor assisted suicides united v suicide vacco quill states
+<title> doctor assisted suicides united v suicide vacco quill states
 
 <desc> Description:
 What are the arguments for and against doctor assisted suicide in the U.S.?
@@ -3621,7 +3621,7 @@ also presents a pro or con argument.
 
 <top>
 <num> Number: 636
-jury duty exemptions 2 code united title states
+<title> jury duty exemptions 2 code united title states
 
 <desc> Description:
 Find documents that discuss reasons why people may be exempted from
@@ -3637,7 +3637,7 @@ an exemption or list an occupation that causes exemption from jury duty.
 
 <top>
 <num> Number: 637
-human growth hormone (HGH) sports hormones controversies list
+<title> human growth hormone (HGH) growthhormonereleasing receptor sports controversies
 
 <desc> Description:
 What are the pros and cons of adults using human growth hormone (HGH)?
@@ -3652,7 +3652,7 @@ short children are irrelevant.
 
 <top>
 <num> Number: 638
-wrongful convictions innocence united miscarriage justice project list states
+<title> wrongful convictions innocence united miscarriage justice project list states
 
 <desc> Description:
 Find documents that discuss freed prisoners who have been wrongfully
@@ -3672,7 +3672,7 @@ statement or prisoners freed for an exchange.
 
 <top>
 <num> Number: 639
-consumer on-line shopping malls behaviour
+<title> consumer on-line shopping malls behaviour
 
 <desc> Description:
 What factors contributed to the growth of consumer on-line
@@ -3689,7 +3689,7 @@ also relevant.
 
 <top>
 <num> Number: 640
-maternity leave policies medical act 1993 family parental
+<title> maternity leave policies medical act 1993 family parental
 
 <desc> Description:
 What are the maternity leave policies of various governments?
@@ -3710,7 +3710,7 @@ are not provided are relevant.
 
 <top>
 <num> Number: 641
-Valdez wildlife marine life exxon oil spill national prestige fjords park kenai
+<title> Valdez wildlife marine life exxon oil spill national prestige fjords park kenai
 
 <desc> Description:
 What was the impact of the Exxon Valdez oil spill on the marine life
@@ -3726,7 +3726,7 @@ of animals saved or dead).
 
 <top>
 <num> Number: 642
-Tiananmen Square protesters dissent china protest
+<title> Tiananmen Square protesters dissent china protest
 
 <desc> Description:
 What happened to protesters arrested in connection with the Tiananmen
@@ -3743,7 +3743,7 @@ document to be relevant.
 
 <top>
 <num> Number: 643
-salmon dams Pacific northwest watershed columbia run river list chinook
+<title> salmon dams Pacific northwest environmental run chinook issues
 
 <desc> Description:
 What harm have power dams in the Pacific northwest
@@ -3758,7 +3758,7 @@ dams on the salmon population in the U.S. Pacific northwest.
 
 <top>
 <num> Number: 644
-exotic animals import smuggling ferret pet wildlife
+<title> exotic animals import smuggling ferret pet wildlife
 
 <desc> Description:
 Identify documents that discuss exotic species of animals that are
@@ -3774,7 +3774,7 @@ animal diseases is not relevant.
 
 <top>
 <num> Number: 645
-software piracy music warez scene
+<title> software piracy music warez scene
 
 <desc> Description:
 Find documents that discuss the financial impact of software piracy upon
@@ -3790,7 +3790,7 @@ together are not relevant.
 
 <top>
 <num> Number: 646
-food stamps increase nutrition ration supplemental stamp program assistance policy
+<title> food stamps increase nutrition ration supplemental stamp program assistance policy
 
 <desc> Description:
 Find documents that discuss an increase in the number of people receiving
@@ -3807,7 +3807,7 @@ relevant.
 
 <top>
 <num> Number: 647
-windmill electricity tankhouse turbine panemone wind
+<title> windmill electricity tankhouse turbine panemone wind
 
 <desc> Description:
 Has the use of windmill technology to generate electricity been
@@ -3823,7 +3823,7 @@ more conventional means of generation.
 
 <top>
 <num> Number: 648
-family leave law medical united states act 1993 maternity paid california
+<title> family leave law medical united states act 1993 maternity paid california
 
 <desc> Description:
 Identify documents that discuss details of a family leave law, such as
@@ -3839,7 +3839,7 @@ is not relevant.
 
 <top>
 <num> Number: 649
-computer viruses worms macro michelangelo timeline virus
+<title> computer viruses worms macro michelangelo timeline virus
 
 <desc> Description:
 How do computers get infected by computer viruses? 
@@ -3853,7 +3853,7 @@ become a host to a computer virus.
 
 <top>
 <num> Number: 650
-tax evasion indicted
+<title> tax evasion indicted
 
 <desc> Description:
 Identify individuals or corporations that have been indicted
