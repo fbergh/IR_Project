@@ -33,8 +33,7 @@ public class QueryWriter
         // Read until end of file
         while( readLine != null ) {
             String expandedQuery = "";
-            // Valid query only if it is longer than a and has a <title> tag
-            if( readLine.startsWith("<title>") && readLine.length() > 7) {
+            if( readLine.startsWith("<title>") ) {
                 String query = readLine.substring(8);
                 expandedQuery = qe.expandQuery(query);
                 System.out.format("Query #%d\n",nrQuery++);

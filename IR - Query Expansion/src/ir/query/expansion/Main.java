@@ -23,8 +23,7 @@ public class Main {
     public static void main(String[] args) throws IOException, ParseException {
         QueryExpander qe = new QueryExpander(K, WIKI_LIMIT, DBPEDIA_LIMIT, EDIT_DISTANCE_THRESHOLD);
         System.out.println(qe.expandQuery(QUERY));
-        QueryWriter.writeExpandedQueries(qe, "../anserini/src/main/resources/topics-and-qrels/topics.robust04.txt",
-                                         "../topics.robust04.expanded.txt");
+        QueryWriter.writeExpandedQueries(qe, "../topics.robust04.txt", "../topics.robust04.expanded.txt");
     }
     
 }
