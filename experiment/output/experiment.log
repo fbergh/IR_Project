@@ -1,0 +1,40 @@
+2019-12-20 14:34:31,840 INFO  [main] search.SearchCollection (SearchCollection.java:212) - Reading index at ../robust04/lucene-index.robust04.pos+docvectors+rawdocs
+2019-12-20 14:34:32,637 INFO  [main] search.SearchCollection (SearchCollection.java:239) - Use Bag of Terms query
+2019-12-20 14:34:32,742 INFO  [pool-2-thread-1] search.SearchCollection$SearcherThread (SearchCollection.java:163) - [Start] Ranking with similarity: BM25(k1=0.9,b=0.4)
+2019-12-20 14:35:06,884 INFO  [pool-2-thread-1] search.SearchCollection$SearcherThread (SearchCollection.java:195) - [Finished] Ranking with similarity: BM25(k1=0.9,b=0.4)
+2019-12-20 14:35:06,907 INFO  [pool-2-thread-1] search.SearchCollection$SearcherThread (SearchCollection.java:196) - Run 250 topics searched in 00:00:34
+2019-12-20 14:35:06,945 INFO  [main] search.SearchCollection (SearchCollection.java:562) - Total run time: 00:00:35
+runid                 	all	Anserini
+num_q                 	all	249
+num_ret               	all	249000
+num_rel               	all	17412
+num_rel_ret           	all	9513
+map                   	all	0.2018
+gm_map                	all	0.0941
+Rprec                 	all	0.2479
+bpref                 	all	0.2350
+recip_rank            	all	0.5868
+iprec_at_recall_0.00  	all	0.6363
+iprec_at_recall_0.10  	all	0.4345
+iprec_at_recall_0.20  	all	0.3332
+iprec_at_recall_0.30  	all	0.2727
+iprec_at_recall_0.40  	all	0.2225
+iprec_at_recall_0.50  	all	0.1877
+iprec_at_recall_0.60  	all	0.1425
+iprec_at_recall_0.70  	all	0.1071
+iprec_at_recall_0.80  	all	0.0688
+iprec_at_recall_0.90  	all	0.0361
+iprec_at_recall_1.00  	all	0.0177
+P_5                   	all	0.3871
+P_10                  	all	0.3506
+P_15                  	all	0.3205
+P_20                  	all	0.3008
+P_30                  	all	0.2598
+P_100                 	all	0.1587
+P_200                 	all	0.1098
+P_500                 	all	0.0623
+P_1000                	all	0.0382
+Retrieval for method=test and k=0
+---------------------------------
+Retrieval for method=test and k=0
+---------------------------------
