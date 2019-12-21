@@ -4,34 +4,95 @@ print(os.getcwd())
 print(os.path.dirname(os.path.realpath(__file__)))
 
 # Initialise experiment variables
-qe_methods=["test"] #["api","index"]
-ks = [0] #[1,3,5,10]
+qe_methods = ["api","index"]
+ks = [1,3,5,10]
+K = 3
 
-# Initialise file (base) locations. If you run this file from experiment/, you won't have to change anything
-# The code assumes the query files have name structure: "topics.robust04.expanded.k.method.txt", 
-# e.g. k=[1,3,5,10] and method=["api","index"] specified above
-log_file = "output/experiment.log"
-robust04_index_loc = "../robust04/lucene-index.robust04.pos+docvectors+rawdocs"
+# Initialise file locations. If you run this file from experiment/, you won't have to change anything
+ROBUST04_INDEX_LOC = "../robust04/lucene-index.robust04.pos+docvectors+rawdocs"
+ANSERINI_CLASS_LOC = "../anserini/target/appassembler/bin/SearchCollection"
+ANSERINI_EVAL_LOC = "../anserini/eval/trec_eval.9.0.4/trec_eval"
+QRELS = "../anserini/src/main/resources/topics-and-qrels/qrels.robust04.txt"
+# The start for every query/retrieval output file in the experiments has the same base (also see comment above)
 queries_base = "queries/topics.robust04.expanded"
-retr_output_base = "output/run.robust04.bm25.topics.robust04.expanded"
-qrels = "../anserini/src/main/resources/topics-and-qrels/qrels.robust04.txt"
-anserini_class_loc = "../anserini/target/appassembler/bin/SearchCollection"
-anserini_eval_loc = "../anserini/eval/trec_eval.9.0.4/trec_eval"
+retr_output_base = "output/retrieval/run.robust04.bm25.topics.robust04.expanded"
+results_output_base = "output/results/"
 
+'''
+BASELINE
+The baseline model is plain BM25 without query expansion
+'''
+print("BASELINE")
+with open(results_output_base+"baseline.log", "w") as log:
+    # Retrieval
+    query_file = queries_base[:-9]+".txt"
+    retr_output_file = retr_output_base[:-9]+".txt"
+    subprocess.run(["nohup", ANSERINI_CLASS_LOC, "-index", ROBUST04_INDEX_LOC, "-topicreader", "Trec",
+                    "-topics", query_file, "-bm25", "-output", retr_output_file],
+                    stdout=log, text=True)
+
+    # Evaluation
+    subprocess.run([ANSERINI_EVAL_LOC, QRELS, retr_output_file],
+                    stdout=log, text=True)
+
+'''
+EXPERIMENT 1
+Uses query files in format "topics.robust04.expanded.k.method.txt"
+where k=3 (default K) and method=[api,index]
+'''
+print("EXPERIMENT 1")
 for method in qe_methods:
-    for k in ks:
-        with open("output/experiment.log","w") as log:
-            # Step 1: perform retrieval with Anserini
-            log.write("Retrieval for method="+method+" and k="+str(k)+"\n---------------------------------")
-            query_file = queries_base+"."+str(k)+"."+method+".txt"
-            retr_output_file = retr_output_base+"."+str(k)+"."+method+".txt"
-            subprocess.run(["nohup",anserini_class_loc,"-index",robust04_index_loc,"-topicreader","Trec",
-                            "-topics",query_file,"-bm25","-output",retr_output_file], 
-                            stdout=log, text=True)
+    print("method="+method)
+    with open(results_output_base+"experiment_method="+method+".log", "w") as log:
+        # Retrieval
+        query_file = queries_base+"."+str(K)+"."+method+".txt"
+        retr_output_file = retr_output_base+"."+str(K)+"."+method+".txt"
+        subprocess.run(["nohup", ANSERINI_CLASS_LOC, "-index", ROBUST04_INDEX_LOC, "-topicreader", "Trec",
+                        "-topics", query_file, "-bm25", "-output", retr_output_file],
+                        stdout=log, text=True)
 
-            # Step 2: perform evaluation with Anserini
-            log.write("\nRetrieval for method="+method+" and k="+str(k)+"\n---------------------------------")
-            subprocess.run([anserini_eval_loc,qrels, retr_output_file], 
-                           stdout=log, text=True)
+        # Evaluation
+        subprocess.run([ANSERINI_EVAL_LOC, QRELS, retr_output_file],
+                        stdout=log, text=True)
+    log.close()
 
-            log.close()
+'''
+EXPERIMENT 2
+Uses query files in format "topics.robust04.expanded.k.txt"
+where k=[1,3,5,10]
+'''
+print("EXPERIMENT 2")
+for k in ks:
+    print("K="+str(k))
+    with open(results_output_base+"experiment_k="+str(k)+".log", "w") as log:
+        # Retrieval
+        query_file = queries_base+"."+str(k)+".txt"
+        retr_output_file = retr_output_base+"."+str(k)+".txt"
+        subprocess.run(["nohup",ANSERINI_CLASS_LOC,"-index",ROBUST04_INDEX_LOC,"-topicreader","Trec",
+                        "-topics",query_file,"-bm25","-output",retr_output_file], 
+                        stdout=log, text=True)
+
+        # Evaluation
+        subprocess.run([ANSERINI_EVAL_LOC,QRELS, retr_output_file], 
+                        stdout=log, text=True)
+        log.close()
+
+'''
+EXPERIMENT 3
+Uses query files in format "topics.robust04.expanded.k.filtered.txt"
+where k=3 (default K)
+'''
+print("EXPERIMENT 3")
+with open(results_output_base+"experiment_filtered.log", "w") as log:
+    # Retrieval
+    query_file = queries_base+"."+str(K)+".filtered.txt"
+    retr_output_file = retr_output_base+"."+str(K)+".filtered.txt"
+    subprocess.run(["nohup", ANSERINI_CLASS_LOC, "-index", ROBUST04_INDEX_LOC, "-topicreader", "Trec",
+                    "-topics", query_file, "-bm25", "-output", retr_output_file],
+                    stdout=log, text=True)
+
+    # Evaluation
+    subprocess.run([ANSERINI_EVAL_LOC, QRELS, retr_output_file],
+                    stdout=log, text=True)
+
+    log.close()
