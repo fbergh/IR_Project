@@ -5,6 +5,7 @@ print(os.path.dirname(os.path.realpath(__file__)))
 
 # Initialise experiment variables
 qe_methods = ["api","index"]
+filter_methods = ["duplicates","stopwords","both"]
 ks = [1,3,5,10]
 K = 3
 
@@ -79,20 +80,21 @@ for k in ks:
 
 '''
 EXPERIMENT 3
-Uses query files in format "topics.robust04.expanded.k.filtered.txt"
-where k=3 (default K)
+Uses query files in format "topics.robust04.expanded.k.filter_method.txt"
+where k=3 (default K) and filter_method=[duplicates, stop words, both]
 '''
 print("EXPERIMENT 3")
-with open(results_output_base+"experiment_filtered.log", "w") as log:
-    # Retrieval
-    query_file = queries_base+"."+str(K)+".filtered.txt"
-    retr_output_file = retr_output_base+"."+str(K)+".filtered.txt"
-    subprocess.run(["nohup", ANSERINI_CLASS_LOC, "-index", ROBUST04_INDEX_LOC, "-topicreader", "Trec",
-                    "-topics", query_file, "-bm25", "-output", retr_output_file],
-                    stdout=log, text=True)
+for filter_method in filter_methods:
+    print("Filter method="+filter_method)
+    with open(results_output_base+"experiment_filtermethod="+filter_method+".log", "w") as log:
+        # Retrieval
+        query_file = queries_base+"."+str(K)+"."+filter_method+".txt"
+        retr_output_file = retr_output_base+"."+str(K)+"."+filter_method+".txt"
+        subprocess.run(["nohup", ANSERINI_CLASS_LOC, "-index", ROBUST04_INDEX_LOC, "-topicreader", "Trec",
+                        "-topics", query_file, "-bm25", "-output", retr_output_file],
+                        stdout=log, text=True)
 
-    # Evaluation
-    subprocess.run([ANSERINI_EVAL_LOC, QRELS, retr_output_file],
-                    stdout=log, text=True)
-
-    log.close()
+        # Evaluation
+        subprocess.run([ANSERINI_EVAL_LOC, QRELS, retr_output_file],
+                        stdout=log, text=True)
+        log.close()

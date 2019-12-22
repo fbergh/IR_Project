@@ -1,0 +1,6 @@
+2019-12-22 10:40:23,096 INFO  [main] search.SearchCollection (SearchCollection.java:212) - Reading index at ../robust04/lucene-index.robust04.pos+docvectors+rawdocs
+2019-12-22 10:40:23,427 INFO  [main] search.SearchCollection (SearchCollection.java:239) - Use Bag of Terms query
+2019-12-22 10:40:23,466 INFO  [pool-2-thread-1] search.SearchCollection$SearcherThread (SearchCollection.java:163) - [Start] Ranking with similarity: BM25(k1=0.9,b=0.4)
+2019-12-22 10:40:23,468 INFO  [pool-2-thread-1] search.SearchCollection$SearcherThread (SearchCollection.java:195) - [Finished] Ranking with similarity: BM25(k1=0.9,b=0.4)
+2019-12-22 10:40:23,482 INFO  [pool-2-thread-1] search.SearchCollection$SearcherThread (SearchCollection.java:196) - Run 0 topics searched in 00:00:00
+2019-12-22 10:40:23,498 INFO  [main] search.SearchCollection (SearchCollection.java:562) - Total run time: 00:00:00

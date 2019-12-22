@@ -1,0 +1,36 @@
+2019-12-22 10:39:34,890 INFO  [main] search.SearchCollection (SearchCollection.java:212) - Reading index at ../robust04/lucene-index.robust04.pos+docvectors+rawdocs
+2019-12-22 10:39:35,368 INFO  [main] search.SearchCollection (SearchCollection.java:239) - Use Bag of Terms query
+2019-12-22 10:39:35,444 INFO  [pool-2-thread-1] search.SearchCollection$SearcherThread (SearchCollection.java:163) - [Start] Ranking with similarity: BM25(k1=0.9,b=0.4)
+2019-12-22 10:39:55,740 INFO  [pool-2-thread-1] search.SearchCollection$SearcherThread (SearchCollection.java:195) - [Finished] Ranking with similarity: BM25(k1=0.9,b=0.4)
+2019-12-22 10:39:55,754 INFO  [pool-2-thread-1] search.SearchCollection$SearcherThread (SearchCollection.java:196) - Run 250 topics searched in 00:00:20
+2019-12-22 10:39:55,787 INFO  [main] search.SearchCollection (SearchCollection.java:562) - Total run time: 00:00:20
+runid                 	all	Anserini
+num_q                 	all	249
+num_ret               	all	241339
+num_rel               	all	17412
+num_rel_ret           	all	10272
+map                   	all	0.2531
+gm_map                	all	0.1455
+Rprec                 	all	0.2924
+bpref                 	all	0.2603
+recip_rank            	all	0.6769
+iprec_at_recall_0.00  	all	0.7158
+iprec_at_recall_0.10  	all	0.5286
+iprec_at_recall_0.20  	all	0.4268
+iprec_at_recall_0.30  	all	0.3541
+iprec_at_recall_0.40  	all	0.2789
+iprec_at_recall_0.50  	all	0.2299
+iprec_at_recall_0.60  	all	0.1786
+iprec_at_recall_0.70  	all	0.1404
+iprec_at_recall_0.80  	all	0.0866
+iprec_at_recall_0.90  	all	0.0553
+iprec_at_recall_1.00  	all	0.0281
+P_5                   	all	0.5004
+P_10                  	all	0.4382
+P_15                  	all	0.3987
+P_20                  	all	0.3631
+P_30                  	all	0.3102
+P_100                 	all	0.1837
+P_200                 	all	0.1250
+P_500                 	all	0.0689
+P_1000                	all	0.0413

@@ -1,1 +1,0 @@
-Jullie kunnen deze file verwijderen als er andere files in deze directory staan, maar GitHub pusht geen lege directories en het Python script crasht als deze directory niet bestaat.
