@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-recall_vals = np.arange(1.1,step=0.1,)
+recall_vals = np.arange(1.1,step=0.1)
 
 def extract_iprec_vals(experiment, values, plot_baseline=False):
     iprec_vals = {}
@@ -26,7 +26,7 @@ def extract_iprec_vals(experiment, values, plot_baseline=False):
 
 def generate_iprec_plot(experiment, values, title, plot_baseline=False):
     exp_iprec_vals = extract_iprec_vals(experiment, values, plot_baseline)
-    
+
     for val in values:
         if val=="baseline":
             plt.plot(recall_vals, exp_iprec_vals["baseline"], label="baseline")
