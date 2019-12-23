@@ -1,9 +1,9 @@
-2019-12-22 10:39:34,890 INFO  [main] search.SearchCollection (SearchCollection.java:212) - Reading index at ../robust04/lucene-index.robust04.pos+docvectors+rawdocs
-2019-12-22 10:39:35,368 INFO  [main] search.SearchCollection (SearchCollection.java:239) - Use Bag of Terms query
-2019-12-22 10:39:35,444 INFO  [pool-2-thread-1] search.SearchCollection$SearcherThread (SearchCollection.java:163) - [Start] Ranking with similarity: BM25(k1=0.9,b=0.4)
-2019-12-22 10:39:55,740 INFO  [pool-2-thread-1] search.SearchCollection$SearcherThread (SearchCollection.java:195) - [Finished] Ranking with similarity: BM25(k1=0.9,b=0.4)
-2019-12-22 10:39:55,754 INFO  [pool-2-thread-1] search.SearchCollection$SearcherThread (SearchCollection.java:196) - Run 250 topics searched in 00:00:20
-2019-12-22 10:39:55,787 INFO  [main] search.SearchCollection (SearchCollection.java:562) - Total run time: 00:00:20
+2019-12-23 09:28:45,947 INFO  [main] search.SearchCollection (SearchCollection.java:212) - Reading index at ../robust04/lucene-index.robust04.pos+docvectors+rawdocs
+2019-12-23 09:28:47,033 INFO  [main] search.SearchCollection (SearchCollection.java:239) - Use Bag of Terms query
+2019-12-23 09:28:47,178 INFO  [pool-2-thread-1] search.SearchCollection$SearcherThread (SearchCollection.java:163) - [Start] Ranking with similarity: BM25(k1=0.9,b=0.4)
+2019-12-23 09:30:11,889 INFO  [pool-2-thread-1] search.SearchCollection$SearcherThread (SearchCollection.java:195) - [Finished] Ranking with similarity: BM25(k1=0.9,b=0.4)
+2019-12-23 09:30:11,919 INFO  [pool-2-thread-1] search.SearchCollection$SearcherThread (SearchCollection.java:196) - Run 250 topics searched in 00:01:24
+2019-12-23 09:30:11,955 INFO  [main] search.SearchCollection (SearchCollection.java:562) - Total run time: 00:01:26
 runid                 	all	Anserini
 num_q                 	all	249
 num_ret               	all	241339

@@ -40,7 +40,7 @@ the "post-polio" area.
 <top>
 
 <num> Number: 303 
-<title> Hubble Telescope Achievements space heritage project uranus
+<title> Hubble Telescope Achievements space heritage project european southern observatory
 
 <desc> Description: 
 Identify positive accomplishments of the Hubble telescope since it
@@ -107,7 +107,7 @@ crashes per 100,000 miles, for example.
 <top>
 
 <num> Number: 306
-<title> African Civilian Deaths vietnam war casualties
+<title> African Civilian Deaths world war i casualties german ii list wars anthropogenic disasters death toll
 
 <desc> Description: 
 How many civilian non-combatants have been killed in 
@@ -205,7 +205,7 @@ of teenagers.
 <top>
 
 <num> Number: 310
-<title> Radio Waves and Brain Cancer wave electromagnetic radiation magnetic resonance imaging
+<title> Radio Waves and Brain Cancer wave electromagnetic radiation science
 
 <desc> Description: 
 Evidence that radio waves from radio towers or car phones affect
@@ -412,7 +412,7 @@ retirement home.
 <top>
 
 <num> Number: 319
-<title> New Fuel Sources alternative fossil
+<title> New Fuel Sources alternative fossil phaseout
 
 <desc> Description: 
 What research is ongoing for new fuel sources.
@@ -486,7 +486,7 @@ of women.
 <top>
 
 <num> Number: 322
-<title> International Art Crime geneva freeport
+<title> International Art Crime association research crimes against forgery
 
 <desc> Description: 
 Isolate instances of fraud or embezzlement in the international
@@ -506,7 +506,7 @@ relevant.
 <top>
 
 <num> Number: 323
-<title> Literary/Journalistic Plagiarism intertextuality translation
+<title> Literary/Journalistic Plagiarism ghostwriter edgar allan poe
 
 <desc> Description: 
 Find instances of plagiarism in the literary and journalistic
@@ -701,7 +701,7 @@ its personnel being difficult to work with, etc.
 <top>
 
 <num> Number: 332
-<title> Income Tax Evasion united states noncompliance
+<title> Income Tax Evasion united states noncompliance withholding
 
 <desc> Description: 
 This query is looking for investigations that have 
@@ -773,7 +773,7 @@ to compete in the international market.
 <top>
 
 <num> Number: 335
-<title> Adoptive Biological Parents adoption stepfamily parenting
+<title> Adoptive Biological Parents relative outcomes parenting adopted child syndrome
 
 <desc> Description: 
 Identify the problems, and solutions to those problems, 
@@ -1128,7 +1128,7 @@ the metabolic rate.
 <top>
 
 <num> Number: 350
-<title> Health and Computer Terminals timesharing desktop plato system
+<title> Health and Computer Terminals gandalf technologies
 
 <desc> Description: 
 Is it hazardous to the health of individuals to	work
@@ -1416,7 +1416,7 @@ are relevant if lives were threatened.
 <top>
 
 <num> Number: 364
-<title> rabies prevalence novel mission
+<title> rabies prevalence world day animals
 
 <desc> Description: 
 Identify documents discussing cases where rabies
@@ -1636,7 +1636,7 @@ no year is required.
 <top>
 
 <num> Number: 375
-<title> hydrogen energy international journal hydrogenpowered aircraft
+<title> hydrogen energy international journal electrolysis water
 
 <desc> Description: 
 What is the status of research on hydrogen as a 
@@ -1745,7 +1745,7 @@ resulting from the applications.
 <top>
 
 <num> Number: 381
-<title> alternative medicine journal complementary therapies health
+<title> alternative medicine journal complementary national center integrative health
 
 <desc> Description: 
 What forms of alternative medicine are being
@@ -1786,7 +1786,7 @@ the use of metal hydrides for use in piston engines.
 <top>
 
 <num> Number: 383
-<title> mental illness drugs myth health psychiatric medication
+<title> mental illness drugs myth health community service
 
 <desc> Description: 
 Identify drugs used in the treatment of mental illness.  
@@ -1823,7 +1823,7 @@ and money to accomplish such a feat.
 <top>
 
 <num> Number: 385
-<title> hybrid fuel cars cell vehicle honda clarity
+<title> hybrid fuel cars list vehicles electric vehicle toyota prius plugin
 
 <desc> Description: 
 Identify documents that discuss the current status of
@@ -1894,7 +1894,7 @@ solely on chemical fertilizers.
 <top>
 
 <num> Number: 389
-<title> illegal technology transfer surrogacy laws country
+<title> illegal technology transfer internet censorship india
 
 <desc> Description: 
 What specific entities have been accused of illegal 
@@ -1934,7 +1934,7 @@ other countries.
 <top>
 
 <num> Number: 391
-<title> R&D drug prices prescription united states 340b pricing program generic
+<title> R&D drug prices prescription united states 340b pricing program orphan
 
 <desc> Description: 
 Identify documents that discuss the impact of the cost of research
@@ -2013,7 +2013,7 @@ therefore relevant.
 <top>
 
 <num> Number: 395
-<title> tourism business world day geography
+<title> tourism world day domestic geography
 
 <desc> Description: 
 Provide examples of successful attempts to attract 
@@ -2053,7 +2053,7 @@ such as carpal tunnel syndrome, are not relevant.
 <top>
 
 <num> Number: 397
-<title> automobile recalls history big three manufacturers gmc
+<title> automobile recalls history detroit company big three manufacturers
 
 <desc> Description: 
 Identify documents that discuss the reasons for 
@@ -2122,7 +2122,7 @@ activity is also relevant.
 <top>
 
 <num> Number: 400 
-<title> Amazon rain forest deforestation rainforest tropical subtropical moist broadleaf forests dieback
+<title> Amazon rain forest deforestation rainforest brazil tropical subtropical moist broadleaf forests
 
 <desc> Description: 
 What measures are being taken by local South
@@ -2767,7 +2767,7 @@ involuntarily reducing the population are not relevant.
 <top>
 
 <num> Number: 436 
-<title> railway accidents classification
+<title> railway accidents classification train wreck
 
 <desc> Description: 
 What are the causes of railway accidents throughout
@@ -2859,7 +2859,7 @@ operations.
 <top>
 
 <num> Number: 441 
-<title> Lyme disease microbiology connecticut weather climate effects exposure
+<title> Lyme disease microbiology old connecticut weather climate effects exposure
 
 <desc> Description: 
 How do you prevent and treat Lyme disease?
@@ -3047,7 +3047,7 @@ water to Syria, Israel and Lebanon) are not relevant.
 
 <top>
 <num> Number: 602
-<title> Czech, Slovak sovereignty dissolution czechoslovakia slovakia history czechoslovak nationality
+<title> Czech, Slovak sovereignty dissolution czechoslovakia history slovakia
 
 <desc> Description:
 Retrieve information regarding the process by which the
@@ -3066,7 +3066,7 @@ external are not relevant.
 
 <top>
 <num> Number: 603
-<title> Tobacco cigarette lawsuit r j reynolds company politics master settlement agreement
+<title> Tobacco cigarette lawsuit politics master settlement agreement
 
 <desc> Description:
 Retrieve documents regarding U.S. lawsuits against the tobacco industry
@@ -3131,7 +3131,7 @@ also relevant.
 
 <top>
 <num> Number: 607
-<title> human genetic code mitochondrial genetics mutation
+<title> human genetic code mitochondrial genetics translation biology
 
 <desc> Description:
 What progress is being made in the effort to map and sequence
@@ -3341,7 +3341,7 @@ Documents about the movement Khomeini led when alive are not relevant.
 
 <top>
 <num> Number: 619
-<title> Winnie Mandela scandal nelson biography
+<title> Winnie Mandela scandal death nelson p w botha thabo mbeki
 
 <desc> Description:
 What part did Winnie Mandela herself play in the kidnapping, beating
@@ -3543,7 +3543,7 @@ a synonym for the condition and is considered relevant.
 
 <top>
 <num> Number: 631
-<title> Mandela South Africa President nelson international tribute free statue johannesburg
+<title> Mandela South Africa President zindzi
 
 <desc> Description:
 Find documents relating to the election of Nelson Mandela as president
@@ -4154,7 +4154,7 @@ mention poverty and disease but do not draw a connection are not relevant.
 <top>
 <num> Number: 669
 
-<title> Islamic Revolution ideology iranian cultural supreme leader iran
+<title> Islamic Revolution constitution republic iran casualties iranian cultural
 
 <desc>
 What were the causes for the Islamic Revolution relative to relations with the
@@ -4426,7 +4426,7 @@ eligible voters.
 <top>
 <num> Number: 686
 
-<title> Argentina pegging dollar international use us history
+<title> Argentina pegging dollar international use us united states exchange rate
 
 <desc> Description:
 What are the negative impacts of Argentina's policy of pegging
@@ -4442,7 +4442,7 @@ do not identify problems in the Argentine economy are not relevant.
 <top>
 <num> Number: 687
 
-<title> Northern Ireland industry economy unionism
+<title> Northern Ireland industry economy belfast derry
 
 <desc>
 What businesses and industries form the basis of the
@@ -4540,7 +4540,7 @@ of benign prostate enlargement (BHP).
 <top>
 <num> Number: 693
 
-<title> newspapers electronic media publishing communication mass canada
+<title> newspapers electronic media publishing mass communication
 
 <desc>
 What has been the effect of the electronic media on the newspaper

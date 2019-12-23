@@ -4,7 +4,7 @@ print(os.getcwd())
 print(os.path.dirname(os.path.realpath(__file__)))
 
 # Initialise experiment variables
-qe_methods = ["api","index"]
+qe_methods = ["api","index_title","index_body"]
 filter_methods = ["duplicates","stopwords","both"]
 ks = [1,3,5,10]
 K = 3

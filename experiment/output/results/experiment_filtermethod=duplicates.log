@@ -1,36 +1,36 @@
-2019-12-22 10:41:57,993 INFO  [main] search.SearchCollection (SearchCollection.java:212) - Reading index at ../robust04/lucene-index.robust04.pos+docvectors+rawdocs
-2019-12-22 10:41:58,318 INFO  [main] search.SearchCollection (SearchCollection.java:239) - Use Bag of Terms query
-2019-12-22 10:41:58,411 INFO  [pool-2-thread-1] search.SearchCollection$SearcherThread (SearchCollection.java:163) - [Start] Ranking with similarity: BM25(k1=0.9,b=0.4)
-2019-12-22 10:42:19,067 INFO  [pool-2-thread-1] search.SearchCollection$SearcherThread (SearchCollection.java:195) - [Finished] Ranking with similarity: BM25(k1=0.9,b=0.4)
-2019-12-22 10:42:19,081 INFO  [pool-2-thread-1] search.SearchCollection$SearcherThread (SearchCollection.java:196) - Run 250 topics searched in 00:00:20
-2019-12-22 10:42:19,119 INFO  [main] search.SearchCollection (SearchCollection.java:562) - Total run time: 00:00:21
+2019-12-23 09:35:31,113 INFO  [main] search.SearchCollection (SearchCollection.java:212) - Reading index at ../robust04/lucene-index.robust04.pos+docvectors+rawdocs
+2019-12-23 09:35:31,909 INFO  [main] search.SearchCollection (SearchCollection.java:239) - Use Bag of Terms query
+2019-12-23 09:35:32,042 INFO  [pool-2-thread-1] search.SearchCollection$SearcherThread (SearchCollection.java:163) - [Start] Ranking with similarity: BM25(k1=0.9,b=0.4)
+2019-12-23 09:36:12,607 INFO  [pool-2-thread-1] search.SearchCollection$SearcherThread (SearchCollection.java:195) - [Finished] Ranking with similarity: BM25(k1=0.9,b=0.4)
+2019-12-23 09:36:12,633 INFO  [pool-2-thread-1] search.SearchCollection$SearcherThread (SearchCollection.java:196) - Run 250 topics searched in 00:00:40
+2019-12-23 09:36:12,670 INFO  [main] search.SearchCollection (SearchCollection.java:562) - Total run time: 00:00:41
 runid                 	all	Anserini
 num_q                 	all	249
 num_ret               	all	249000
 num_rel               	all	17412
-num_rel_ret           	all	10173
-map                   	all	0.2322
-gm_map                	all	0.1156
-Rprec                 	all	0.2686
-bpref                 	all	0.2496
-recip_rank            	all	0.6207
-iprec_at_recall_0.00  	all	0.6673
-iprec_at_recall_0.10  	all	0.4995
-iprec_at_recall_0.20  	all	0.3804
-iprec_at_recall_0.30  	all	0.3157
-iprec_at_recall_0.40  	all	0.2595
-iprec_at_recall_0.50  	all	0.2136
-iprec_at_recall_0.60  	all	0.1600
-iprec_at_recall_0.70  	all	0.1231
-iprec_at_recall_0.80  	all	0.0834
-iprec_at_recall_0.90  	all	0.0524
-iprec_at_recall_1.00  	all	0.0232
-P_5                   	all	0.4281
-P_10                  	all	0.3896
-P_15                  	all	0.3604
-P_20                  	all	0.3337
-P_30                  	all	0.2873
-P_100                 	all	0.1760
-P_200                 	all	0.1211
-P_500                 	all	0.0675
-P_1000                	all	0.0409
+num_rel_ret           	all	9306
+map                   	all	0.1944
+gm_map                	all	0.0907
+Rprec                 	all	0.2378
+bpref                 	all	0.2290
+recip_rank            	all	0.5635
+iprec_at_recall_0.00  	all	0.6097
+iprec_at_recall_0.10  	all	0.4268
+iprec_at_recall_0.20  	all	0.3245
+iprec_at_recall_0.30  	all	0.2646
+iprec_at_recall_0.40  	all	0.2108
+iprec_at_recall_0.50  	all	0.1780
+iprec_at_recall_0.60  	all	0.1347
+iprec_at_recall_0.70  	all	0.0988
+iprec_at_recall_0.80  	all	0.0662
+iprec_at_recall_0.90  	all	0.0356
+iprec_at_recall_1.00  	all	0.0167
+P_5                   	all	0.3663
+P_10                  	all	0.3398
+P_15                  	all	0.3114
+P_20                  	all	0.2878
+P_30                  	all	0.2489
+P_100                 	all	0.1529
+P_200                 	all	0.1068
+P_500                 	all	0.0609
+P_1000                	all	0.0374
