@@ -41,5 +41,5 @@ def generate_iprec_plot(experiment, values, title, plot_baseline=False):
     plt.show()
 
 generate_iprec_plot("k",[1,3,5,10], "Interpolated recall-precision for different values of K", True)
-generate_iprec_plot("filtermethod", ["duplicates","stopwords","both"], "Interpolated recall-precision for different filter methods")
+generate_iprec_plot("filtermethod", ["none","duplicates","stopwords","both"], "Interpolated recall-precision for different filter methods")
 generate_iprec_plot("method", ["api","index_body","index_title"], "Interpolated recall-precision for different Wikipedia-query methods", True)
