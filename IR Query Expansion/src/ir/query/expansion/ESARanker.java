@@ -9,7 +9,6 @@ import be.vanoosten.esa.EnwikiFactory;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.Iterator;
 import org.apache.lucene.queryparser.classic.ParseException;
 import static org.apache.lucene.util.Version.LUCENE_48;
@@ -53,7 +52,7 @@ public class ESARanker {
     }
     
     /**
-     * Sorts all candidates (Strings) in an ArrayList based on their semantic
+     * Sorts all candidate Strings in an ArrayList based on their semantic
      * similarity to a given query String.
      * 
      * @param query - The query String

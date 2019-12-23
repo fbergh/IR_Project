@@ -23,8 +23,8 @@ public class QueryExpander {
     private final int WIKI_LIMIT;
     private final int DBPEDIA_LIMIT;
     private final double EDIT_DISTANCE_THRESHOLD;
-    private final boolean REMOVE_STOPWORDS;
     private final boolean REMOVE_DUPLICATES;
+    private final boolean REMOVE_STOPWORDS;
     
     public QueryExpander(int k, int wikiLimit, int dbpediaLimit, double editDistanceThreshold, boolean removeDuplicates, boolean removeStopWords) {
         this.K = k;
@@ -36,17 +36,32 @@ public class QueryExpander {
     }
     
     /**
-     * Expands the given query using Wikipedia and DBpedia.
+     * Builder function that allows expandQuery to be called without wikiResults
+     * (to use the Wikipedia API).
      * 
-     * @param query - The input query
+     * @param query - The initial query
      * @return - The expanded query
      * @throws IOException
      * @throws ParseException 
      */
     public String expandQuery(String query) throws IOException, ParseException {
+        return expandQuery(query, null);
+    }
+    
+    /**
+     * Expands the given query using Wikipedia and DBpedia.
+     * 
+     * @param query - The input query
+     * @param wikiResults - The results from the Wikipedia index, if the index
+     *                      is used instead of the API
+     * @return - The expanded query
+     * @throws IOException
+     * @throws ParseException 
+     */
+    public String expandQuery(String query, String[] wikiResults) throws IOException, ParseException {
         // Retrieve the top results from Wikipedia
-        ArrayList<String> wikipediaResults = getWikipediaResults(query, WIKI_LIMIT);
-        
+        ArrayList<String> wikipediaResults = (wikiResults == null) ? getWikipediaResults(query, WIKI_LIMIT) : new ArrayList<>(Arrays.asList(wikiResults));
+
         // Use the top result to retrieve titles of connected documents from DBpedia
         ArrayList<String> dbpediaResults = getDBpediaConnections(wikipediaResults.get(0), DBPEDIA_LIMIT);
         
@@ -61,15 +76,22 @@ public class QueryExpander {
         ArrayList<String> filteredCandidates = filterEditDistance(query, candidates);
         ArrayList<String> finalCandidates = new ArrayList<>(filteredCandidates.subList(0, Math.min(K,filteredCandidates.size())));
         
-        // Remove stopwords and duplicates, if needed
+        // Split the final candidates into words
+        ArrayList<String> finalCandidateTerms = new ArrayList<>();
+        for(String candidate : finalCandidates){
+            ArrayList<String> words = new ArrayList<>(Arrays.asList(candidate.toLowerCase().replaceAll("\\p{P}", "").split("\\s+")));
+            finalCandidateTerms.addAll(words);
+        }
+        
+        // Remove stopwords and/or duplicates, if needed
         if(REMOVE_DUPLICATES)
-            finalCandidates = removeDuplicates(query, finalCandidates);
+            finalCandidateTerms = removeDuplicates(query, finalCandidateTerms);
         if(REMOVE_STOPWORDS)
-            finalCandidates = removeStopWords(finalCandidates, ranker);           
+            finalCandidateTerms = removeStopWords(finalCandidateTerms, ranker);           
         
         // Build the final expanded query and return it
         StringBuilder sb = new StringBuilder(query);
-        for(String term : finalCandidates)
+        for(String term : finalCandidateTerms)
             sb.append(" ").append(term);
         return sb.toString();
     }
@@ -103,7 +125,9 @@ public class QueryExpander {
     }
     
     /**
-     * Finds the lowest Levenshtein distance between given String and the elements of a list of Strings
+     * Finds the lowest Levenshtein distance between given String and the elements 
+     * of a list of Strings.
+     * 
      * @param s - The String to which all elements of the ArrayList should be compared
      * @param toMatch - The ArrayList
      * @return - The lowest Levenshtein distance found
@@ -122,39 +146,36 @@ public class QueryExpander {
      * Removes duplicate words from a given list of candidates.
      * 
      * @param query - The original query
-     * @param candidates - The list of candidates
-     * @return - A list of words in the candidates, without duplicates
+     * @param candidateWords - The list of candidate words
+     * @return - A list of candidate words, without duplicates
      */
-    private static ArrayList<String> removeDuplicates(String query, ArrayList<String> candidates) {  
-        // Replace all punctuation from the query and split on (multiple) whitespace
+    private static ArrayList<String> removeDuplicates(String query, ArrayList<String> candidateWords) {  
+        // Remove all punctuation from the query and split on (multiple) whitespace
         List<String> qWords = Arrays.asList(query.toLowerCase().replaceAll("\\p{P}", "").split("\\s+"));
 
         // Create a list of final candidate words and loop through the candidates
         ArrayList<String> cWords = new ArrayList<>();
-        for(String c : candidates){
-            // For each word in every candidate, if the word is not in the query or the 
+        for(String cw : candidateWords)
+            // For each candidate word, if the word is not in the query or the 
             // final candidate words, add it to the final candidate words
-            List<String> words = Arrays.asList(c.toLowerCase().replaceAll("\\p{P}", "").split("\\s+"));
-            for(String w : words)
-                if(!qWords.contains(w) && !cWords.contains(w))
-                    cWords.add(w);
-        }
-        
-        // Return the list of candidate words
+            if(!qWords.contains(cw) && !cWords.contains(cw))
+                cWords.add(cw);
+
+        // Return the list of candidate words without duplicates
         return cWords;
     }
     
     /**
-     * Removes stopwords from an ArrayList of terms.
+     * Removes stopwords from an ArrayList of candidate words.
      * 
-     * @param terms - The original ArrayList
+     * @param candidateWords - The original ArrayList of candidate words
      * @param ranker - The ESA ranker from which a list of stopwords can be retrieved
      * @return - The ArrayList in which stopwords have been removed
      */
-    private static ArrayList<String> removeStopWords(ArrayList<String> terms, ESARanker ranker){
+    private static ArrayList<String> removeStopWords(ArrayList<String> candidateWords, ESARanker ranker){
         ArrayList<String> result = new ArrayList<>();
         ArrayList<String> stopWords = ranker.getStopWords();
-        for(String term : terms)
+        for(String term : candidateWords)
             if(!stopWords.contains(term))
                 result.add(term);
         return result;

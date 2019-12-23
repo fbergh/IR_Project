@@ -22,7 +22,7 @@ public class AskWikipediaAPI {
      * 
      * @param query - The query that will be issued to Wikipedia
      * @param limit - The number of results to return
-     * @return - ArrayList of retreived document titles.
+     * @return - ArrayList of retreived document titles
      * @throws IOException 
      */
     public static ArrayList<String> getWikipediaResults(String query, int limit) throws IOException {
@@ -39,9 +39,10 @@ public class AskWikipediaAPI {
     }
     
     /**
-     * Parses a list of Wikipedia titles from the Wikipedia API results
+     * Parses a list of Wikipedia titles from the Wikipedia API results.
+     * 
      * @param jsonResult - The Wikipedia API results, in JSON format
-     * @return - ArrayList of parsed titles.
+     * @return - ArrayList of parsed titles
      */
     private static ArrayList<String> parseJSONTitles(String jsonResult){
         ArrayList<String> titles = new ArrayList<>();
@@ -54,7 +55,3 @@ public class AskWikipediaAPI {
     }
 
 }
-    
-      
-   
-

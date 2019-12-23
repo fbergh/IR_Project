@@ -1,7 +1,10 @@
 package ir.query.expansion;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * Class containing some utility functions.
@@ -66,6 +69,23 @@ public class Tools {
             sb.append(c);
         }
         return sb.toString();
+    }
+    
+    /**
+     * Parses an ArrayList of String arrays containing Wikipedia results obtained
+     * from the Wikipedia index (using the "IR Wikipedia Index" project).
+     * 
+     * @param in - The filename of the input file where Wikipedia results were stored
+     * @param limit - The number of results to retrieve per query
+     * @return - The parsed Wikipedia results
+     * @throws IOException 
+     */
+    public static ArrayList<String[]> parseWikipediaIndexResult(String in, int limit) throws IOException {
+        ArrayList<String[]> results = new ArrayList<>();
+        BufferedReader br = new BufferedReader(new FileReader(in));
+        for(String readLine = br.readLine(); readLine != null; readLine = br.readLine())
+            results.add(Arrays.copyOfRange(readLine.split(";;;"), 0, Math.min(limit, readLine.split(";;;").length)));
+        return results;
     }
     
 }

@@ -6,8 +6,8 @@ import java.net.URLEncoder;
 import java.util.ArrayList;
 
 /**
- * Class for getting all documents connected to a particular 
- * DBpedia document, both incoming and outgoing.
+ * Class for getting all documents connected to a particular DBpedia document, 
+ * via both incoming and outgoing connections.
  * 
  * @author Freek van den Bergh, s4801709
  * @author Max Driessen, s4789628
@@ -16,8 +16,8 @@ import java.util.ArrayList;
 public class AskDBpedia {
    
     /**
-     * Queries DBpedia to obtain all documents x that are linked to a given 
-     * document y via (y, predicate, x) or (x, predicate, y).
+     * Queries DBpedia to obtain all documents that are linked to a given 
+     * document via incoming or outgoing connections.
      * 
      * @param docTitle - Title of the current document
      * @param limit - The maximum number of results to be retrieved

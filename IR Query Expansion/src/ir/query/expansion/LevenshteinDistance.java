@@ -50,9 +50,9 @@ public class LevenshteinDistance {
     }
     
     /**
-     * Computes the normalised Levenshtein distance between two character sequences
-     * by dividing the normal Levenshtein distance by the length of the longest 
-     * character sequence.
+     * Computes the normalised Levenshtein distance between two character 
+     * sequences by dividing the normal Levenshtein distance by the length of 
+     * the longest character sequence.
      * 
      * @param lhs
      * @param rhs
