@@ -2,6 +2,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 recall_vals = np.arange(1.1,step=0.1)
+linestyles = ["solid","dotted","dashed","dashdot"]
+colors = ["red","blue","green","orange"]
 
 def extract_iprec_vals(experiment, values, plot_baseline=False):
     iprec_vals = {}
@@ -27,11 +29,11 @@ def extract_iprec_vals(experiment, values, plot_baseline=False):
 def generate_iprec_plot(experiment, values, title, plot_baseline=False):
     exp_iprec_vals = extract_iprec_vals(experiment, values, plot_baseline)
 
-    for val in values:
+    for i,val in enumerate(values):
         if val=="baseline":
-            plt.plot(recall_vals, exp_iprec_vals["baseline"], label="baseline")
+            plt.plot(recall_vals, exp_iprec_vals["baseline"], label="baseline", color="black")
         else:
-            plt.plot(recall_vals,exp_iprec_vals[val],label=experiment+"="+str(val))
+            plt.plot(recall_vals, exp_iprec_vals[val], label=experiment+"="+str(val), linestyle=linestyles[i], color=colors[i])
     plt.xlabel("Recall")
     plt.ylabel("Precision")
     plt.title(title)
@@ -41,5 +43,5 @@ def generate_iprec_plot(experiment, values, title, plot_baseline=False):
     plt.show()
 
 generate_iprec_plot("k",[1,3,5,10], "Interpolated recall-precision for different values of K", True)
-generate_iprec_plot("filtermethod", ["none","duplicates","stopwords","both"], "Interpolated recall-precision for different filter methods")
+generate_iprec_plot("filtermethod", ["none","duplicates","stopwords","both"], "Interpolated recall-precision for different filter methods", True)
 generate_iprec_plot("method", ["api","index_body","index_title"], "Interpolated recall-precision for different Wikipedia-query methods", True)
